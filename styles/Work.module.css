@@ -1,0 +1,34 @@
+.containerBig {
+    /* position: relative;
+    height: 100%; */
+    background: #131519;
+}
+
+
+.contianer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.TitlePage{
+    height: 85vh;
+    width: 100%;
+
+ 
+    margin-bottom: 48px;
+}
+.contianerGrid{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.ourPart{
+    padding-top: 160px;
+    padding-bottom: 110px;
+}
+
+
+

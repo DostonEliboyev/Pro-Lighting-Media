@@ -1,0 +1,89 @@
+.ContactUs{
+
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../../asset/img/Ellipse/ell800.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top -190px right -100px;
+   
+}
+.ContactUs_img{
+    width: 40%;
+}
+
+.ContactUs_form {
+    width: 30%;
+}
+.ContactUs_inputs{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+}
+.ContactUs_inputs input{
+    height: 49px;
+    font-size: 17px;
+    color: #fff;
+    border:1px solid  rgb(252, 248, 22);
+    background-color: #6e70701a;
+    border-radius: 8px;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+
+.ContactUs_inputs input::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+.ContactUs_inputs_btn{
+    color:#fff;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#F4902C, #FEE105) !important;
+}
+.ContactUs_form h1{
+    text-transform: uppercase;
+    color: #fff;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+.ContactUs_form h1 span{
+    /* background-image:linear-gradient(to right,#F4902C, #FEE105) !important; */
+    color: #F4902C;
+
+}
+.ContactUs_form p {
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.ContactUs_form textarea{
+
+    height: 115px;
+    font-size: 17px;
+    color: #fff;
+    border:1px solid  rgb(252, 248, 22);
+    background-color: #6e70701a;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.ContactUs_form textarea::placeholder{
+
+    color: #fff;
+    opacity: 1; /* Firefox */
+
+}
