@@ -1,0 +1,88 @@
+{
+  "headLink": [
+    {
+      "locale": "en",
+      "title": "About",
+      "link":"/"
+      
+    },
+    {
+      "locale": "ru",
+      "title": "О НАС",
+      "link":"/"
+
+    },
+    {
+      "locale": "uz",
+      "title": "Biz Haqimizda",
+      "link":"/"
+
+    },
+    {
+      "locale": "en",
+      "title": "Our Work",
+      "link":"/work"
+
+    },
+    {
+      "locale": "ru",
+      "title": "НАШИ РАБОТЫ",
+      "link":"/work"
+
+    },
+    {
+      "locale": "uz",
+      "title": "Ishlarimiz",
+      "link":"/work"
+
+    },
+    {
+      "locale": "en",
+      "title": "RENT",
+      "link":"/rent"
+    },
+    {
+      "locale": "ru",
+      "title": "АРЕНДА",
+      "link":"/rent"
+    },
+    {
+      "locale": "uz",
+      "title": "Ijara",
+      "link":"/rent"
+    },
+    {
+        "locale": "en",
+        "title": "Our team",
+        "link":"/team"
+      },
+      {
+        "locale": "ru",
+        "title": "Наш команда",
+        "link":"/team"
+      },
+      {
+        "locale": "uz",
+        "title": "Bizni jamoa",
+        "link":"/team"
+      },
+      {
+        "locale": "en",
+        "title": "CONTACT",
+        "link":"/contact"
+
+      },
+      {
+        "locale": "ru",
+        "title": "КОНТАКТЫ",
+        "link":"/contact"
+
+      },
+      {
+        "locale": "uz",
+        "title": "Aloqa",
+        "link":"/contact"
+
+      }
+  ]
+}

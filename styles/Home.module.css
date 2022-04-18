@@ -88,7 +88,7 @@
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   margin-left: 30px;
 }
@@ -215,5 +215,178 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+@media only screen and (max-width: 1440px) {
+  .outTeam {
+    padding: 35px 135px;
+    height: 100vh;
+  }
+  .someWork {
+    padding: 35px 135px;
+    height: 105vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .outTeam {
+    padding: 30px 50px;
+  }
+  .someWork {
+    padding: 30px 50px;
+    height: 97vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .outTeam {
+    margin-bottom: 30px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .someWork {
+    padding: 0 30px;
+    height: 90vh;
+    margin-bottom: 110px;
+  }
+  .ellipse44 {
+    display: none;
+  }
+  .outTeamRigth {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .outTeamRigth p {
+    width: 100%;
+  }
+  .outTeamLeft {
+    width: 100%;
+    margin-left: 130px;
+  }
+
+  .outTeamTitel {
+    top: -98px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .outTeam {
+    padding: 0 20px;
+  }
+  .outTeamTitel {
+    font-size: 17px;
+    top: -84px;
+    left: 20px;
+  }
+  .outTeamTitel span {
+    font-size: 28px;
+  }
+
+  .ProContianer div {
+    display: none;
+  }
+  .someWork {
+    padding: 0 20px;
+    height: 82vh;
+  }
+  .outTeamLeft {
+    width: 100%;
+    margin-left: 26px;
+  }
+
+  .leftBottomImg {
+    width: 130px;
+    height: 130px;
+    background-color: #9b4f4f;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .leftBottomImg span {
+    z-index: 1;
+  }
+
+  .leftBottomImg::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 22px;
+    left: -26px;
+    z-index: 0;
+    background-color: #fff0;
+    border-radius: 10px;
+    border: 1px solid #fddb08;
+  }
+
+  .topRightImg {
+    width: 130px;
+    height: 130px;
+    background-color: #9b4f4f;
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .topRightImg span {
+    z-index: 1;
+  }
+
+  .topRightImg::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: -21px;
+    left: 20px;
+    z-index: 0;
+    background-color: #fff0;
+    border: 1px solid #fddb08;
+    border-radius: 10px;
+  }
+  .topRightTitle {
+    top: 7px;
+    left: 105px;
+    font-size: 24px;
+  }
+}
 
 
+@media only screen and (max-width: 1440px) {
+  .allAbout {
+    padding: 0 135px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .allAbout {
+    padding: 0 50px;
+  }
+  .wrapper{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .allAbout {
+    padding: 0 30px;
+  }
+  .allAboutCenter span {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .allAbout {
+    padding: 0 20px;
+    height: 55vh
+  }
+  .allAboutCenter span {
+    text-align: center;
+    font-size: 16px;
+  }
+  .allAboutCenter p {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+}

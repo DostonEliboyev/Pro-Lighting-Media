@@ -5,7 +5,9 @@ import styles from "../styles/HomeBgImage.module.css"
 function HomeBgImage({image}) {
   return(
     <div className={styles.home}>
-        <Image src={image} layout="responsive"  alt=""/>;
+      <Image src={image} className={styles.imageBg} objectFit="cover" layout="responsive"  alt="" />;
+      <div className={styles.shadowBg}></div>
+      <div className={styles.shadowBgFull}></div>
     </div>
 
   ) 

@@ -1,11 +1,12 @@
 .contianer {
-  height: 800px;
+  height: 100%;
   width: 100%;
   position: relative;
   background-image: url('../../../asset/img/Ellipse/ell500l.png');
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 30%;
+  background-size: 20%;
+  margin: 50px 0;
 }
 
 .wrapper {
@@ -20,9 +21,40 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 64px;
-  margin-top: 153px;
+  margin-top: 10px;
   color: #fff;
 }
 .wrapper__title div p {
   font-size: 24px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contianer {
+    padding: 35px 135px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contianer {
+    padding: 30px 50px;
+  }
+  .wrapper{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contianer {
+    padding: 0 30px;
+  }
+  .slick-track{
+    width: 10780px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contianer {
+    padding: 0 20px;
+  }
+  
 }

@@ -1,32 +1,32 @@
-/* eslint-disable jsx-a11y/alt-text */
+import React, { useState } from "react";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import logo_white from "../asset/img/logo_white.png";
 import styles from "../styles/Header.module.css";
+import blogPosts from "../public/lang/head.json";
 
 function Header() {
+  const [openDrop, setOpenDrop] = useState(false);
+;
+  const { locale, locales, asPath } = useRouter();
+
   return (
-    <div  className={styles.headerBig}>
+    <div className={styles.headerBig}>
       <div className={styles.header}>
         <div className={styles.logo__white}>
-          <Image src={logo_white} />
+          <Image src={logo_white} alt="" />
         </div>
-        <div className="head-main">
-          <Link href="/">
-            <a>About</a>
-          </Link>
-          <Link href="/work">
-            <a>OUR WORKS</a>
-          </Link>
-          <Link href="/rent">
-            <a>RENT</a>
-          </Link>
-          <Link href="/team">
-            <a>Our team</a>
-          </Link>
-          <Link href="/contact">
-            <a>CONTACT</a>
-          </Link>
+        <div className={styles.head__main}>
+          {blogPosts.headLink
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <Link href={`${blogPost.link}`} key={i}>
+                  <a>{blogPost.title}</a>
+                </Link>
+              );
+            })}
         </div>
         <div className={styles.searchLang}>
           <div className={styles.search}>
@@ -40,8 +40,46 @@ function Header() {
               <path d="M8.87 8.16l3.25 3.25-.7.71-3.26-3.25a5 5 0 1 1 .7-.7zM5 9a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
             </svg>
           </div>
-          <div className={styles.lang}>
-            <p>Eng</p>
+          {locales.map((l, i) => {
+            return (
+              <div className={styles.lang} key={i}>
+                <Link href={asPath} locale={l}>
+                  {l}
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className={styles.searchLangDrop}>
+          <div className={styles.dropdown}>
+            <button
+              onClick={() => setOpenDrop(!openDrop)}
+              className={styles.dropbtn}
+            >
+              <label htmlFor="check" className={styles.label}>
+                <input type="checkbox" className={styles.input} />
+                <span className={styles.span}></span>
+                <span className={styles.span}></span>
+                <span className={styles.span}></span>
+              </label>
+            </button>
+            <div
+              className={`${openDrop ? styles.show : ""} ${
+                styles.dropdown_content
+              }`}
+              onClick={() => setOpenDrop(false)}
+            >
+              {blogPosts.headLink
+                .filter((p) => p.locale === locale)
+                .map((blogPost, i) => {
+                  return (
+                    <Link href={`${blogPost.link}`} key={i}>
+                      <a>{blogPost.title}</a>
+                    </Link>
+                  );
+                })}
+            </div>
           </div>
         </div>
       </div>

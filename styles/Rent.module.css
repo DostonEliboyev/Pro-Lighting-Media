@@ -10,17 +10,71 @@
   position: relative;
   max-width: 1440px;
   margin: auto;
-}
-.TitlePage {
-  height: 85vh;
-  width: 100%;
 
-  margin-bottom: 48px;
+  --font: "Open Sans", sans-serif;
+  --alt-font: "Modak", cursive;
+  --white: #fff;
+  --stroke-color: #000;
+  --alt-stroke-color: rgba(255, 255, 255, 1);
 }
+
+.allAbout {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.allAboutCenter {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.allAboutCenter span {
+  width: 60%;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-family: var(--font);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--alt-stroke-color);
+  z-index: 9;
+}
+
+.allAboutCenter p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  margin:21px 0;
+}
+
+.allAboutCenter button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid #f4902c;
+  background: rgba(18, 18, 18, 0.5);
+  cursor: pointer;
+}
+
+
+
+
+
 .contianerGrid {
   width: 100%;
   margin-bottom: 200px;
-  height: 120vh;
+  margin-top: 200px;
+  height: 100%;
   color: #fff;
 }
 
@@ -46,18 +100,18 @@
 }
 .Tab li:hover {
   background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .Tab li:visited {
   background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .TabPanel {
   height: 125vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex !important;
   justify-content: space-between;
   align-items: flex-end;
@@ -73,6 +127,7 @@
   /* overflow: hidden; */
   color: #fff;
   position: relative;
+  cursor: pointer;
 }
 
 .card * {
@@ -127,3 +182,116 @@
   .card:hover h3, .card:focus-within h3 {
     padding: 8px 12px 0;
   } */
+
+
+  .modalll{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red !important;
+  }
+
+  
+  @media only screen and (max-width: 1440px) {
+    .contianerGrid{
+      height: 170vh;
+      width: 80%;
+      margin: auto;
+    }
+    .card{
+      width: 302px;
+      height: 302px;
+    }
+    .allAbout {
+      width: 80%;
+      margin: auto;
+      height: 100vh;
+    }
+    .allAboutCenter{
+      margin-bottom: 140px;
+    }
+    .allAboutCenter button{
+      width: 200px;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+  .contianerGrid{
+    height: 170vh;
+    width: 80%;
+    margin: auto;
+  }
+  .card{
+    width: 302px;
+    height: 302px;
+  }
+  .allAbout {
+    width: 80%;
+    margin: auto;
+    height: 86vh;
+  }
+  .allAboutCenter{
+    margin-bottom: 115px;
+  }
+  .allAboutCenter button{
+    width: 200px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .contianerGrid{
+    height: 210vh;
+  }
+  .allAbout {
+    width: 80%;
+    margin: auto;
+    height: 56vh;
+  }
+  .allAboutCenter span{
+    font-size: 2rem;
+  }
+  .allAboutCenter p{
+    font-size: 15px;
+    margin: 12px 0;
+  }
+  .allAboutCenter{
+    margin-bottom: 115px;
+  }
+  .allAboutCenter button{
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Tab{flex-direction: column;}
+  .contianerGrid{
+    height: 370vh;
+  }
+
+  .allAbout {
+    width: 80%;
+    margin: auto;
+    height: 30vh;
+  }
+  .allAboutCenter span{
+    font-size: 0.7rem;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .allAboutCenter p{
+   display: none;
+  }
+  .allAboutCenter{
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .allAboutCenter button{
+    width: 200px;
+  }
+}

@@ -15,14 +15,15 @@ function Footer() {
         <div className={styles.footer__head}>
           <div className={styles.footer__head__left}>
             <div className={styles.logo__white}>
-              <Image src={logo_white} alt=""/>
+              <Image src={logo_white} alt="" />
             </div>
+            <OrderNow name={"Order now "} href={"/rent"} />
+          </div>
+
+          <div className={styles.footer__head__right}>
             <p className={styles.footer__head__left_titel}>
               Here you can rent or buy the best LED screens in Tashkent!.
             </p>
-          </div>
-          <div className={styles.footer__head__right}>
-            <OrderNow name={"Order now "} href={"/rent"} />
           </div>
         </div>
 
@@ -71,17 +72,17 @@ function Footer() {
             </Link>
             <Link href="/">
               <a>
-                <Image src={Instagram_white}  alt="" />
+                <Image src={Instagram_white} alt="" />
               </a>
             </Link>
             <Link href="/">
               <a>
-                <Image src={Telegram_white}  alt="" />
+                <Image src={Telegram_white} alt="" />
               </a>
             </Link>
             <Link href="/">
               <a>
-                <Image src={Youtube_white}  alt="" />
+                <Image src={Youtube_white} alt="" />
               </a>
             </Link>
           </div>

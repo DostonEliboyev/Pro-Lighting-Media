@@ -1,25 +1,30 @@
+/* eslint-disable react/jsx-key */
 import Image from "next/image";
-import person from "../../../asset/img/team/Temp1.jpg";
 import styles from "./index.module.css";
-function CardPade({item}) {
 
+
+function CardPade({ team }) {
   return (
     <div className={styles.bigContainer}>
-      <div className={styles.continer}>
-        <div className={styles.ImageBor}>
-          <div className={styles.imagecontainer}>
-            <Image
-              src={person}
-              alt=""
-              className={styles.imageDeg}
-              width="300px"
-              height="300px"
-            />
+      {team.map((item) => (
+        <div className={styles.continer}>
+          <div className={styles.ImageBor}>
+            <div className={styles.imagecontainer}>
+              <Image
+                src={item.src}
+                alt=""
+                className={styles.imageDeg}
+                width={item.width}
+                height={item.height}
+                layout="fill"
+              />
+            </div>
           </div>
+          <h1> {item.FullName} </h1>
+          <p>{item.job}</p>
         </div>
-        <h1> {item.name}</h1>
-        <p>{ item.level}</p>
-      </div>
+      ))}
+
     </div>
   );
 }

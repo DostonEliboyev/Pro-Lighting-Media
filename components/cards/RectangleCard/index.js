@@ -2,27 +2,39 @@ import styles from "./index.module.css";
 import CardPade from "./../cardPade/index";
 import OrderNow from "../../buttons/index";
 function RectangleCard() {
-  const data = [
+  const team4 = [
     {
-      name: "Kamol Abdullayev",
-      level: "Ijrochi direktori",
-      img: "Tem1",
+      with: 400,
+      height: 400,
+      src: "/photos/man17.png",
+      alt: " ",
+      FullName: "Усмоний Мухаммад Диёр",
+      job: "Художник по свету",
     },
     {
-      name: "Kamol Abdullayev",
-      level: "Ijrochi direktori",
-      img: "Tem2",
+      with: 400,
+      height: 400,
+      src: "/photos/man1.png",
+      alt: " ",
+      FullName: "Шарипов Абдумумин",
+      job:"Технический специалист по светодиодным экранам"
+  },
+    {
+      with: 400,
+      height: 400,
+      src: "/photos/man5.png",
+      alt: " ",
+      FullName: "Сайдуллаев Ботир",
+      job: "Инженер",
     },
     {
-      name: "Kamol Abdullayev",
-      level: "Ijrochi direktori",
-      img: "Tem3",
-    },
-    {
-      name: "Kamol Abdullayev",
-      level: "Ijrochi direktori",
-      img: "Tem4",
-    },
+      with: 400,
+      height: 400,
+      src: "/photos/man2.png",
+      alt: " ",
+      FullName: "Инженер по свету",
+      job:"Инженер по свету"
+  },
   ];
   return (
     <section className={styles.contianer}>
@@ -36,10 +48,7 @@ function RectangleCard() {
         <OrderNow name={"View all"} href={"/rent"} />
       </div>
       <div className={styles.wrapper}>
-        {data.map((item, index) => (
-          <CardPade key={index} item={item} />
-          
-        ))}
+        <CardPade team={team4} />
       </div>
     </section>
   );

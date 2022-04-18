@@ -8,7 +8,7 @@ const ImageGr = ({ count, images }) => {
     <div>
       <div className={styles.parent1}>
         <div className={`${styles.div1} ${styles.img}`}>
-          <YoutubeVideo width={"100%"} height1={"540px"}/>
+          <YoutubeVideo width={"100%"} height={"540px"}/>
         </div>
         <div className={`${styles.div2} ${styles.img}`}> </div>
         <div className={`${styles.div3} ${styles.img}`}> </div>

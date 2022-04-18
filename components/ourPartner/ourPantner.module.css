@@ -1,8 +1,44 @@
-.contianer{
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.contianer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+@media only screen and (max-width: 1440px) {
+  .contianer {
+    padding: 0 135px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contianer {
+    padding: 0 50px;
+  }
+  .contianer div {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contianer {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contianer div {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contianer {
+    padding: 0 20px;
+  }
+  .contianer div {
+    width: 124px;
+    margin: 0 20px;
+
+  }
 }
