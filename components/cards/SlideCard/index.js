@@ -6,7 +6,7 @@ import Image from "next/image";
 import Prev from "../../../asset/img/Icons/leftPrev.png";
 import Next from "../../../asset/img/Icons/rigthNext.png";
 import styles from "./index.module.css";
-import Pic from "../../../asset/img/slideBg.png";
+import Draw from "../../../public/lang/drawing.json";
 
 export default function SimpleSlider() {
   const sliderRef = useRef(null);
@@ -15,7 +15,7 @@ export default function SimpleSlider() {
     className: `${styles.SlideImg}`, // <== your custom name
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
@@ -25,7 +25,7 @@ export default function SimpleSlider() {
     autoplaySpeed: 2000,
     autoplay: true,
     speed: 2000,
-      
+
     responsive: [
       {
         breakpoint: 1200,
@@ -66,6 +66,7 @@ export default function SimpleSlider() {
       },
     ],
   };
+
   return (
     <section className={styles.contianer}>
       <div>
@@ -83,11 +84,9 @@ export default function SimpleSlider() {
           </div>
         </div>
         <Slider {...settings}>
-          {Array(10)
-            .fill("")
-            .map((index) => (
+          {Draw.drawing.map((img,index) => (
               <div key={index} className={styles.ImgStyle} >
-                <Image alt="" src={Pic} />
+                <Image alt="" src={img.image} width={500} height={350} />
               </div>
             ))}
         </Slider>

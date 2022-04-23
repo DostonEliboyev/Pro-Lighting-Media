@@ -18,8 +18,8 @@ function CardPade({ team }) {
                     src={blogPost.src}
                     alt=""
                     className={styles.imageDeg}
-                    width={blogPost.width}
-                    height={blogPost.height}
+                    width={400}
+                    height={400}
                     layout="fill"
                   />
                 </div>
