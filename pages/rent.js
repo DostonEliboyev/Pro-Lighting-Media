@@ -12,7 +12,7 @@ import Image from "next/image";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Products from "../public/lang/products.json";
-import img from "../asset/img/products/product3.png";
+import img from "../public/prodPhoto/F400BSW.jpg";
 import ProCircleGold from "../components/proCircleGold/index";
 
 function Rent() {

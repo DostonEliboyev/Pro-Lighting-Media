@@ -11,7 +11,7 @@ function CardPade({ team }) {
         .map((blogPost, i) => {
           return (
 
-            <div className={styles.continer}>
+            <div className={styles.continer} key={i}>
               <div className={styles.ImageBor}>
                 <div className={styles.imagecontainer}>
                   <Image
