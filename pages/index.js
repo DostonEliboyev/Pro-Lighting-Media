@@ -9,10 +9,10 @@ import HomeBgImage from "../container/HomeBgImage";
 import SimpleSlider from "../components/cards/SlideCard/index";
 import HomeBacImage from "../asset/img/Home_bg.png";
 import SquareForty from "./../components/squareFortyFive/index";
-import OurPartner from './../components/ourPartner/index';
-
+import OurPartner from "./../components/ourPartner/index";
+import ProCircleGold from "../components/proCircleGold/index";
+import { team4 } from "../components/cards/cardPade/data";
 export default function Home() {
-  
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
@@ -27,9 +27,8 @@ export default function Home() {
 
         <section className={styles.outTeam}>
           <div className={styles.ellipse44}>
-            <Image src={ellios44} alt=""/>
+            <Image src={ellios44} alt="" />
           </div>
-
           <div className={styles.outTeamLeft}>
             <p className={styles.outTeamTitel}>
               lets talk a little <span>About ours</span>
@@ -38,7 +37,7 @@ export default function Home() {
               <Image src={diskotik2} alt="" />
             </div>
             <div className={styles.topRightImg}>
-              <Image src={diskotik} alt=""/>
+              <Image src={diskotik} alt="" />
               <p className={styles.topRightTitle}>companies</p>
             </div>
           </div>
@@ -49,8 +48,7 @@ export default function Home() {
               ornare posuere neque, ac nunc sollicitudin. Diam bibendum auctor
               odio scelerisque ridiculus. Tincidunt amet aliquet elementum enim
               turpis sed purus venenatis sed. Aliquam vulputate feugiat lobortis
-              cursus sit proin adipiscing massa, montes. In nisl rhoncus amet
-              sollicitudin ultrices. A, viverra dignissim ac, tempus.
+              cursus sit proin adipiscing massa,
             </p>
             <p>
               Nibh nunc, orci, vel orci eu pharetra, dictumst amet. Massa a ac
@@ -72,13 +70,16 @@ export default function Home() {
 
           {/**/}
         </section>
-        <SimpleSlider />
+        <section>
+          <SimpleSlider />
+        </section>
         <RectangleCard />
+        <div className="ProContianer">
+          <ProCircleGold Gtop="0" Gright="0" />
+          <ContactUs />
+        </div>
 
-        <ContactUs />
-
-        <OurPartner/>
-        
+        <OurPartner />
       </section>
     </section>
   );

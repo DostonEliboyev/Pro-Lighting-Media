@@ -25,14 +25,14 @@ a {
   z-index: 1;
   padding: 0 100px;
 }
-.head-main {
+.head__main {
   width: 45%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.head-main a {
+.head__main a {
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
@@ -149,14 +149,146 @@ a {
   z-index: 99;
 }
 
-.whiteYellowTittle{
-  color:#fff;
-  font-size:44px;
+.whiteYellowTittle {
+  color: #fff;
+  font-size: 44px;
 }
-.whiteYellowTittle span{
+.whiteYellowTittle span {
   /* color:yellow; */
-  background: linear-gradient(105.56deg, #FDDB08 18.43%, #F5952A 89.58%);
+  background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* Slider  */
+
+.allAbout {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.allAboutCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allAboutCenter span {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-family: var(--font);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--alt-stroke-color);
+  z-index: 7;
+}
+
+.allAboutCenter p {
+  color: #fff;
+  font-size: 25px;
+  margin: 40px 0;
+}
+
+.allAboutCenter button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid #f4902c;
+  background: rgba(253, 219, 8, 0.01);
+  cursor: pointer;
+}
+
+/* Pro Circle */
+.ProContianer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#ProCicyle {
+  -webkit-animation: rotation 6s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+/* Pro Circle */
+.react-tabs__tab--selected {
+  /* background: none !important; */
+  color: #fff !important;
+  background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 375px) {
+  .ProWhiteNone{
+    display: none;
+  }
+  .ProGoldNone{
+    display: none;
+  }
+
+  .whiteYellowTittle {
+    font-size: 28px !important;
+  }
+  .whiteYellowTittle p {
+    font-size: 14px !important;
+  }
+}
+.react-responsive-modal-modal{
+  width: 70% !important;
+  height: 95vh !important;
+  background: rgba(18, 18, 18, 0.8) !important;
+  max-width: 90% !important;
+  color: #fff;
+  padding: 40px 100px !important;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 100%;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 6px;
+}
+
+
+
+/* 
+<span key={i} className={l === locale ? styles.selected : ""}>
+<Link href={asPath} locale={l}>
+  {l}
+</Link>
+</span> */
+
+/* <div className={styles.lang}>
+<p>Eng</p>
+</div> */

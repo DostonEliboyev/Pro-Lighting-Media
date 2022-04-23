@@ -34,3 +34,39 @@
 .ImgStyle {
   margin: 0 12px;
 }
+
+@media only screen and (max-width: 1440px) {
+  .contianer {
+    padding: 35px 135px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contianer {
+    padding: 30px 50px;
+  }
+  .wrapper{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contianer {
+    padding: 0 30px;
+  }
+  .SlideImg {
+    box-sizing: border-box;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contianer {
+    margin-top: 100px;
+  }
+  .ImgStyle {
+    margin: 0 12px;
+    width: 200px;
+    height: 200px;
+  }
+}

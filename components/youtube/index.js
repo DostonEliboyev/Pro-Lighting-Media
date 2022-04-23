@@ -3,9 +3,9 @@ import YouTube from "react-youtube";
 
 
 
-const YoutubeVideo = ({width,height1}) => {
+const YoutubeVideo = ({width,height,videoId}) => {
     const opts = {
-        height: height1,
+        height: height,
         width: width,
         borderRadius:'6px',
         playerVars: {
@@ -21,7 +21,7 @@ const YoutubeVideo = ({width,height1}) => {
     
   return (
     <div>
-      <YouTube videoId="o65gViETEPc" opts={opts} onReady={(e)=>onReady(e)} />
+      <YouTube videoId={`${videoId}`} opts={opts} onReady={(e)=>onReady(e)} />
     </div>
   );
 };

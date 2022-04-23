@@ -10,6 +10,7 @@ function ContactUs() {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => console.log(data);
+
   return (
     <div className={styles.ContactUs}>
       <div className={styles.ContactUs_img}>
@@ -46,6 +47,9 @@ function ContactUs() {
             className={styles.ContactUs_inputs_btn}
           />
         </form>
+      </div>
+      <div className={styles.ContactUs_img1}>
+        <Image alt="" src={contact_us} />
       </div>
     </div>
   );

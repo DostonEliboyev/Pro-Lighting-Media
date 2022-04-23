@@ -2,4 +2,32 @@
     position: absolute;
     height: 100%;
     width: 100%;
+
 }
+
+.imageBg{
+    position: relative;
+    }
+
+/* .shadowBg{
+    position: absolute;
+    bottom: -112px;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(rgba(18, 18, 18, 0),#141519);
+} */
+.shadowBgFull{
+    position: absolute;
+    bottom: -57px;
+    height: 112%;
+    width: 100%;
+    background: rgba(18, 18, 18, 0.6);
+}
+
+@media only screen and (min-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 375px) {}

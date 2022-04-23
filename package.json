@@ -14,6 +14,7 @@
     "@mui/material": "^5.5.3",
     "@mui/styled-engine-sc": "^5.5.2",
     "@splidejs/react-splide": "^0.6.20",
+    "git": "^0.1.5",
     "next": "12.1.0",
     "node-sass": "^7.0.1",
     "react": "17.0.2",
@@ -25,11 +26,15 @@
     "react-tabs": "^4.2.0",
     "react-youtube": "^7.14.0",
     "sass": "^1.49.9",
+    "semantic-ui-react": "^2.1.2",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0"
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }

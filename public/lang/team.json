@@ -1,0 +1,31 @@
+{
+  "Fullteam": [
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man4.png",
+      "alt": " ",
+      "FullName": "Rahmatov Mahmudjon",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man4.png",
+      "alt": " ",
+      "FullName": "Рахматов Махмуджон",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man4.png",
+      "alt": " ",
+      "FullName": "Rahmatov Mahmudjon",
+      "job": "Texnik"
+    }
+  ]
+}

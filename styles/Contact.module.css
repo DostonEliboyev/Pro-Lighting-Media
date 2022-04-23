@@ -11,16 +11,68 @@
     position: relative;
     max-width: 1440px;
     margin: auto;
+
+       
+  --font: "Open Sans", sans-serif;
+  --alt-font: "Modak", cursive;
+  --white: #fff;
+  --stroke-color: #000;
+  --alt-stroke-color: rgba(255, 255, 255, 1);
     
 }
-.TitlePage{
-    height: 85vh;
-    width: 100%;
 
- 
-    margin-bottom: 48px;
-}
 
+.allAbout {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+
+  
+  }
+  
+  .allAboutCenter {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  
+  .allAboutCenter span {
+    width: 60%;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    font-family: var(--font);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--alt-stroke-color);
+    z-index: 9;
+  }
+  
+  .allAboutCenter p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    margin:21px 0;
+  }
+  
+  .allAboutCenter button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid #f4902c;
+    background: rgba(18, 18, 18, 0.5);
+    cursor: pointer;
+  }
+
+  
 
 .ourPart{
     padding-top: 160px;
@@ -28,4 +80,69 @@
 }
 
 
+
+@media only screen and (max-width: 1440px) {
+  .contianerGrid{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contianerGrid{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contianerGrid{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .allAbout{
+    height: 65vh;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .allAboutCenter{
+    margin-bottom: 0;
+  }
+  .allAboutCenter span{
+    font-size: 32px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .allAboutCenter p{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contianerGrid{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .allAbout{
+    height: 25vh;
+    align-items: center;
+  }
+  .allAboutCenter{
+    margin-bottom: 0;
+  }
+  .allAboutCenter span {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .allAboutCenter p{
+    display: none;
+  }
+}
 

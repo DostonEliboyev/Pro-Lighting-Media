@@ -1,8 +1,10 @@
-.bigContainer{
+.bigContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+
 }
 .continer {
   width: 300px;
@@ -42,7 +44,7 @@
 .imagecontainer {
   display: block;
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
   border-radius: 6px !important;
 
   border-color: linear-gradient(
@@ -62,4 +64,18 @@
   position: absolute;
   /* top: -100px;
   left: -150px; */
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1200px) {
+  .bigContainer {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 375px) {
 }

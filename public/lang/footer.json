@@ -1,0 +1,91 @@
+{
+  "footerContext": [
+    {
+      "locale": "en",
+      "title": "contact",
+      "p1": "Email: works@prolightingmedia.uz",
+      "p2": "Phone: +998998171111",
+      "p3": "Phone: +998901687135"
+    },
+    {
+      "locale": "ru",
+      "title": "контакт",
+      "p1": "Эл. адрес: works@prolightingmedia.uz",
+      "p2": "Телефон: +998998171111",
+      "p3": "Телефон: +998901687135"
+    },
+    {
+      "locale": "uz",
+      "title": "Aloqa",
+      "p1": "Email: works@prolightingmedia.uz",
+      "p2": "Telefon: +998998171111",
+      "p3": "Telefon: +998901687135"
+    },
+    {
+      "locale": "en",
+      "title": "Our office",
+      "p1": "Address: Tashkent Yakkasaray",
+      "p2": "Uzbekistan"
+    },
+    {
+      "locale": "ru",
+      "title": "Наш офис",
+      "p1": "Адрес:Ташкент Яккасарай",
+      "p2": "Узбекистан"
+    },
+    {
+      "locale": "uz",
+      "title": "Bizning ofisimiz",
+      "p1": "Manzil: Toshkent Yakkasaroy",
+      "p2": "Uzbekiston"
+    },
+    {
+      "locale": "en",
+      "title": "media",
+      "p1": "Press: press@prolightingmedia.uz",
+      "p2": "Adverise: advertise@prolightingmedia.uz"
+    },
+    {
+      "locale": "ru",
+      "title": "Cредства массовой информации",
+      "p1": "Press: press@prolightingmedia.uz",
+      "p2": "Реклама: реклама@prolightingmedia.uz"
+    },
+    {
+      "locale": "uz",
+      "title": "Ommaviy axborot vositalari",
+      "p1": "Manzil: Toshkent Yakkasaroy",
+      "p2": "Reklama: advertise@prolightingmedia.uz"
+    }
+  ],
+  "footerTitle": [
+    {
+      "locale": "en",
+      "title": "Here you can rent or buy the best LED screens in Tashkent!."
+    },
+    {
+      "locale": "ru",
+      "title": "У нас Вы можете арендовать или купить лучшие светодиодные экраны в Ташкенте!."
+    },
+    {
+      "locale": "uz",
+      "title": "Bu yerda siz Toshkentdagi eng zo'r LED ekranlarni ijaraga olishingiz yoki sotib olishingiz mumkin!."
+    }
+
+  ],
+  "footerOrder": [
+    {
+      "locale": "en",
+      "title": "Order now"
+    },
+    {
+      "locale": "ru",
+      "title": "Заказать сейчас"
+    },
+    {
+      "locale": "uz",
+      "title": "Buyurtma bering"
+    }
+    
+  ]
+}
