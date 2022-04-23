@@ -82,7 +82,23 @@
         "locale": "uz",
         "title": "Aloqa",
         "link":"/contact"
+      },
+      {
+        "locale": "en",
+        "title": "Drawing",
+        "link":"/drawing"
 
+      },
+      {
+        "locale": "ru",
+        "title": "Рисование",
+        "link":"/drawing"
+
+      },
+      {
+        "locale": "uz",
+        "title": "Chizma",
+        "link":"/drawing"
       }
   ]
 }

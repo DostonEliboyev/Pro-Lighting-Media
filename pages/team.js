@@ -5,7 +5,7 @@ import OurPartner from "./../components/ourPartner/index";
 import styles from "../styles/Team.module.css";
 import CardPade from "../components/cards/cardPade/index";
 import ProCircleGold from "../components/proCircleGold/index";
-import {teamFull} from "../components/cards/cardPade/data"
+import TeamFull from "../public/lang/team.json"
 function Team() {
   
 
@@ -26,7 +26,7 @@ function Team() {
           <section className={styles.contianerGrid}>
             <ProCircleGold Gtop="-12" Gright="30" />
             <ProCircleGold Gbottom="50" Gleft="30" />
-            <CardPade team={teamFull} />
+            <CardPade team={TeamFull.Fullteam} />
           </section>
         </div>
         <section>

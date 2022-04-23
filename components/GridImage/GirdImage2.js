@@ -1,23 +1,23 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import styles from "./gridImage.module.css";
-import YoutubeEmbed from "./../youtube/YoutubeEmbed";
+import YoutubeEmbed from "../youtube/YoutubeEmbed";
 
-import image from "../../public/ourwork/image.jpg";
-import image1 from "../../public/ourwork/image1.jpg";
-import image2 from "../../public/ourwork/image2.jpg";
-import image3 from "../../public/ourwork/image3.jpg";
-import image4 from "../../public/ourwork/image4.jpg";
-import image5 from "../../public/ourwork/image5.jpg";
-import image6 from "../../public/ourwork/image6.jpg";
-import image7 from "../../public/ourwork/image7.jpg";
-import image8 from "../../public/ourwork/image8.jpg";
-import image9 from "../../public/ourwork/image9.jpg";
-import image10 from "../../public/ourwork/image10.jpg";
-import image11 from "../../public/ourwork/image11.jpg";
-import image12 from "../../public/ourwork/image12.jpg";
-import image13 from "../../public/ourwork/image13.jpg";
-import image14 from "../../public/ourwork/image14.jpg";
+import image from "../../public/drawing/image.jpg";
+import image1 from "../../public/drawing/image1.jpg";
+import image2 from "../../public/drawing/image2.jpg";
+import image3 from "../../public/drawing/image3.jpg";
+import image4 from "../../public/drawing/image4.jpg";
+import image5 from "../../public/drawing/image5.jpg";
+import image6 from "../../public/drawing/image6.jpg";
+import image7 from "../../public/drawing/image7.jpg";
+// import image8 from "../../public/drawing/image8.jpg";
+// import image9 from "../../public/drawing/image9.jpg";
+// import image10 from "../../public/drawing/image10.jpg";
+// import image11 from "../../public/drawing/image11.jpg";
+// import image12 from "../../public/drawing/image12.jpg";
+// import image13 from "../../public/drawing/image13.jpg";
+// import image14 from "../../public/drawing/image14.jpg";
 
 const IGrid = () => {
   return (
@@ -36,7 +36,7 @@ const IGrid = () => {
         </div>
         <div className={`${styles.div2} ${styles.img}`}>
           <div className={styles.imgChild}>
-            <YoutubeEmbed embedId={"o65gViETEPc"} />
+            <YoutubeEmbed embedId={"bPcIHYYFcp4"} />
           </div>
         </div>
         <div className={`${styles.div3} ${styles.img}`}>
@@ -62,7 +62,7 @@ const IGrid = () => {
         </div>
         <div className={`${styles.div5} ${styles.img}`}>
           <div className={styles.imgChild}>
-            <YoutubeEmbed embedId={"TuormcbaqQw"} />
+            <YoutubeEmbed embedId={"X4F8UX-nvlM"} />
           </div>
         </div>
 
@@ -98,7 +98,7 @@ const IGrid = () => {
         </div>
         <div className={`${styles.div9} ${styles.img}`}>
           <div className={styles.imgChild}>
-            <YoutubeEmbed embedId={"s0Ck7956_AY"} />
+            <YoutubeEmbed embedId={"o65gViETEPc"} />
           </div>
         </div>
         <div className={`${styles.div10} ${styles.img}`}>

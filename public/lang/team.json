@@ -6,7 +6,7 @@
       "height": 400,
       "src": "/photos/man4.png",
       "alt": " ",
-      "FullName": "Rahmatov Mahmudjon",
+      "FullName": "Rakhmatov Mahmudzhon",
       "job": "Technician"
     },
     {
@@ -26,6 +26,521 @@
       "alt": " ",
       "FullName": "Rahmatov Mahmudjon",
       "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man15.png",
+      "alt": " ",
+      "FullName": "Inatov Dilshod",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man15.png",
+      "alt": " ",
+      "FullName": "Инатов Дилшод",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man15.png",
+      "alt": " ",
+      "FullName": "Inatov Dilshod",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Yulchiev Muhammaddiyor",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Юлчиев Мухаммаддиёр",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Yo'lchiev Muhammaddiyor",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Sharipov Abdumumin",
+      "job": "Technical specialist on LED screens"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Шарипов Абдумумин",
+      "job": "Технический специалист по светодиодным экранам"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Sharipov Abdumo'min",
+      "job": "LED displey bo'yicha mutaxassis"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "Utkurov Shovkatzhon",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "Ўткуров Шовкатжон",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "O'tkurov Shovkatjon",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man12.png",
+      "alt": " Tagripov Sanzhar",
+      "FullName": "Tagripov Sanzhar",
+      "job": "Light engineer"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man12.png",
+      "alt": " ",
+      "FullName": "Тагрипов Санжар",
+      "job": "Инженер по свету"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man12.png",
+      "alt": " ",
+      "FullName": "Tagripov Sanjar",
+      "job": "Svet muhandisi"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man14.png",
+      "alt": " ",
+      "FullName": "Safoev Akbarzhon",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man14.png",
+      "alt": " ",
+      "FullName": "Сафоев Акбаржон",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man14.png",
+      "alt": " ",
+      "FullName": "Safoev Akbarjon",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Sabirov Abdulaziz",
+      "job": "Lighting designer"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Сабиров Абдулазиз",
+      "job": "Художник по свету"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man1.png",
+      "alt": " ",
+      "FullName": "Sabirov Abdulaziz",
+      "job": "Yoritish dizayneri"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man13.png",
+      "alt": " ",
+      "FullName": "Rustamov Tokhirjon",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man13.png",
+      "alt": " ",
+      "FullName": "Рустамов Тохиржон",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man13.png",
+      "alt": " ",
+      "FullName": "Rustamov Toxirjon",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man2.png",
+      "alt": " ",
+      "FullName": "PARMONOV ABBOS",
+      "job": "Light engineer"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man2.png",
+      "alt": " ",
+      "FullName": "ПАРМОНОВ АББОС",
+      "job": "Инженер по свету"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man2.png",
+      "alt": " ",
+      "FullName": "PARMONOV ABBOS",
+      "job": "Nur muhandisi"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man10.png",
+      "alt": " ",
+      "FullName": "Normetov Davronbek",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man10.png",
+      "alt": " ",
+      "FullName": "Норметов Давронбек",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man10.png",
+      "alt": " ",
+      "FullName": "Normetov Davronbek",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man3.png",
+      "alt": " ",
+      "FullName": "Mardanakulov Zokir",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man3.png",
+      "alt": " ",
+      "FullName": "Марданакулов Зокир",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man3.png",
+      "alt": " ",
+      "FullName": "Mardanakulov Zokir",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man7.png",
+      "alt": " ",
+      "FullName": "Mannopov Abdumalik",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man7.png",
+      "alt": " ",
+      "FullName": "Маннопов Абдумалик",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man7.png",
+      "alt": " ",
+      "FullName": "Mannopov Abdumalik",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man5.png",
+      "alt": " ",
+      "FullName": "Saydullaev Botir",
+      "job": "Engineer"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man5.png",
+      "alt": " ",
+      "FullName": "Сайдуллаев Ботир",
+      "job": "Инженер"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man5.png",
+      "alt": " ",
+      "FullName": "Saydullaev Botir",
+      "job": "Injener"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man6.png",
+      "alt": " ",
+      "FullName": "Mannopov Abdumalik",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man6.png",
+      "alt": " ",
+      "FullName": "Маннопов Абдумалик",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man6.png",
+      "alt": " ",
+      "FullName": "Mannopov Abdumalik",
+      "job": "Texnik"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man17.png",
+      "alt": " ",
+      "FullName": "Usmoniy Muhammad Diyor",
+      "job": "Lighting designer"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man17.png",
+      "alt": " ",
+      "FullName": "Усмоний Мухаммад Диёр",
+      "job": "Художник по свету"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/photos/man17.png",
+      "alt": " ",
+      "FullName": "Usmoniy Muhammad Diyor",
+      "job": "Yoritish dizayneri"
+    }
+  ],
+  "Bosses": [
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "GANIYEV DONIYOR",
+      "job": "Director Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "ГАНИЕВ ДОНИЙОР",
+      "job": "Директор Ч.П. “Pro Lighting Media”"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "GANIYEV DONIYOR",
+      "job": "Direktor Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "AXMEDOV DONIYOR",
+      "job": "Deputy Director"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "АХМЕДОВ ДОНИЙОР",
+      "job": "Заместитель директора"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "AXMEDOV DONIYOR ",
+      "job": "Direktor o'rinbosari"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "SULTANOV BOTIR",
+      "job": "Director Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "СУЛТАНОВ БОТИР",
+      "job": "Директор Ч.П. “Pro Lighting Media”"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "SULTANOV BOTIR",
+      "job": "Direktor Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "en",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ISLAMOV ABDULAZIZ",
+      "job": "Director of LLC «TEHNIC-PRODUCTION»"
+    },
+    {
+      "locale": "ru",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ИСЛАМОВ АБДУЛАЗИЗ",
+      "job": "Директор ООО «TEHNIC-PRODUCTION»"
+    },
+    {
+      "locale": "uz",
+      "with": 400,
+      "height": 400,
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ISLAMOV ABDULAZIZ ",
+      "job": "«TEHNIC-PRODUCTION» MChJ direktori"
     }
   ]
 }
