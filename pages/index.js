@@ -11,7 +11,7 @@ import HomeBacImage from "../asset/img/Home_bg.png";
 import SquareForty from "./../components/squareFortyFive/index";
 import OurPartner from "./../components/ourPartner/index";
 import ProCircleGold from "../components/proCircleGold/index";
-import { team4 } from "../components/cards/cardPade/data";
+
 export default function Home() {
   return (
     <section className={styles.containerBig}>

@@ -15,7 +15,7 @@
   padding-right: 12px;
 }
 .head__main {
-  width: 45%;
+  width: 55%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -230,7 +230,7 @@
     padding: 0 135px;
   }
   .head__main a{
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -239,7 +239,7 @@
     padding: 0 50px;
   }
   .head__main a{
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
