@@ -43,6 +43,7 @@ export default function Home() {
           </div>
 
           <div className={styles.outTeamRigth}>
+            
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
               ornare posuere neque, ac nunc sollicitudin. Diam bibendum auctor

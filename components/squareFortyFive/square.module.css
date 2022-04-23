@@ -140,7 +140,7 @@
   position: absolute;
   bottom: 0;
   background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

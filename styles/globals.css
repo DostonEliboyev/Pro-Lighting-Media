@@ -156,7 +156,7 @@ a {
 .whiteYellowTittle span {
   /* color:yellow; */
   background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* Slider  */
@@ -230,7 +230,7 @@ a {
   /* background: none !important; */
   color: #fff !important;
   background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%) !important;
-    -webkit-background-clip: text !important;
+   background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
 }
 

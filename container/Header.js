@@ -8,7 +8,6 @@ import blogPosts from "../public/lang/head.json";
 
 function Header() {
   const [openDrop, setOpenDrop] = useState(false);
-
   const { locale, locales, asPath } = useRouter();
 
   return (
