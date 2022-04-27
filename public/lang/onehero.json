@@ -1,0 +1,22 @@
+{
+    "about": [
+        {
+            "locale": "en",
+            "h1": "BEST COMPANY IN UZBEKISTAN",
+            "h4": "ALL ABOUT lighting equipment - HERE",
+            "button": "Order now"
+        },
+        {
+            "locale": "ru",
+            "h1": "ЛУЧШАЯ КОМПАНИЯ В УЗБЕКИСТАНЕ",
+            "h4": "ВСЕ О световое оборудование - ЗДЕСЬ",
+            "button": "Заказать сейчас"
+        },
+        {
+            "locale": "uz",
+            "h1": "O'ZBEKISTONDAGI ENG ZO'R KOMPANIYA",
+            "h4": "CHIROQLAR HAQIDA HAMMASI - BU YERDA",
+            "button": "Hoziroq buyurtma bering"
+        }
+    ]
+}

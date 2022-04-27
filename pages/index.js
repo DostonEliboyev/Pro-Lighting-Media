@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import diskotik from "../asset/img/diskotik.png";
 import diskotik2 from "../asset/img/diskotik2.png";
 import ellios44 from "../asset/img/Ellipse/Ellipsbg44.png";
@@ -11,18 +12,27 @@ import HomeBacImage from "../asset/img/Home_bg.png";
 import SquareForty from "./../components/squareFortyFive/index";
 import OurPartner from "./../components/ourPartner/index";
 import ProCircleGold from "../components/proCircleGold/index";
-
+import onehero from "../public/lang/onehero.json";
 export default function Home() {
+  const { locale, locales, asPath } = useRouter();
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
       <section className={styles.container}>
         <section className={styles.allAbout}>
-          <div className={styles.allAboutCenter}>
-            <span>ALL ABOUT LIGHTS - ITS ALL HERE</span>
-            <p>Turn on the feeling with all music event </p>
-            <button>Now Submit</button>
-          </div>
+
+        {onehero.about
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <div className={styles.allAboutCenter}>
+                  <span>{blogPost.h1}</span>
+                  <p>{blogPost.h4} </p>
+                  <button>{blogPost.button}</button>
+                </div>
+              );
+            })}
+         
         </section>
 
         <section className={styles.outTeam}>
