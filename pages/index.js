@@ -25,7 +25,7 @@ export default function Home() {
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
               return (
-                <div className={styles.allAboutCenter}>
+                <div className={styles.allAboutCenter} key={i}>
                   <span>{blogPost.h1}</span>
                   <p>{blogPost.h4} </p>
                   <button>{blogPost.button}</button>
