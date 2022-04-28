@@ -1,7 +1,7 @@
 .bigContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 
@@ -52,7 +52,7 @@
     #fddb08 18.43%,
     #f5952a 89.58%
   ) !important;
-  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
   -webkit-text-fill-color: transparent !important;
   background: linear-gradient(to right, #fddb08, #f5952a);
 }

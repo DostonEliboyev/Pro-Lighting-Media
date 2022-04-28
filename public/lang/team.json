@@ -2,6 +2,90 @@
   "Fullteam": [
     {
       "locale": "en",
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "SULTANOV BOTIR",
+      "job": "Director Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "ru",
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "СУЛТАНОВ БОТИР",
+      "job": "Директор Ч.П. “Pro Lighting Media”"
+    },
+    {
+      "locale": "uz",
+      "src": "/boss/boss3.png",
+      "alt": " ",
+      "FullName": "SULTANOV BOTIR",
+      "job": "Direktor Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "en",
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "GANIYEV DONIYOR",
+      "job": "Director Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "ru",
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "ГАНИЕВ ДОНИЙОР",
+      "job": "Директор Ч.П. “Pro Lighting Media”"
+    },
+    {
+      "locale": "uz",
+      "src": "/boss/boss1.png",
+      "alt": " ",
+      "FullName": "GANIYEV DONIYOR",
+      "job": "Direktor Ch.P. “Pro Lighting Media”"
+    },
+    {
+      "locale": "en",
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ISLAMOV ABDULAZIZ",
+      "job": "Technical Director"
+    },
+    {
+      "locale": "ru",
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ИСЛАМОВ АБДУЛАЗИЗ",
+      "job": "Технический Директор "
+    },
+    {
+      "locale": "uz",
+      "src": "/boss/boss4.png",
+      "alt": " ",
+      "FullName": "ISLAMOV ABDULAZIZ ",
+      "job": "Texnik direktor"
+    },
+    {
+      "locale": "en",
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "AXMEDOV DONIYOR",
+      "job": "Deputy Director"
+    },
+    {
+      "locale": "ru",
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "АХМЕДОВ ДОНИЙОР",
+      "job": "Заместитель директора"
+    },
+    {
+      "locale": "uz",
+      "src": "/boss/boss2.png",
+      "alt": " ",
+      "FullName": "AXMEDOV DONIYOR ",
+      "job": "Direktor o'rinbosari"
+    },
+    {
+      "locale": "en",
       "src": "/photos/man4.png",
       "alt": " ",
       "FullName": "Rakhmatov Mahmudzhon",
@@ -335,6 +419,48 @@
       "alt": " ",
       "FullName": "Usmoniy Muhammad Diyor",
       "job": "Yoritish dizayneri"
+    },
+    {
+      "locale": "en",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Axmedov  Furgat",
+      "job": "Engineer"
+    },
+    {
+      "locale": "ru",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Ахмедов Фургат",
+      "job": "Инженер"
+    },
+    {
+      "locale": "uz",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Axmedov  Furgat",
+      "job": "Muhandis"
+    },
+    {
+      "locale": "en",
+      "src": "/photos/man19.png",
+      "alt": " ",
+      "FullName": "Raximov Jamshid ",
+      "job": "Engineer"
+    },
+    {
+      "locale": "ru",
+      "src": "/photos/man19.png",
+      "alt": " ",
+      "FullName": "Ракимов Джамшид",
+      "job": "Инженер"
+    },
+    {
+      "locale": "uz",
+      "src": "/photos/man19.png",
+      "alt": " ",
+      "FullName": "Raximov Jamshid ",
+      "job": "Muhandis"
     }
   ],
   "Bosses": [

@@ -10,6 +10,13 @@ function Header() {
   const [openDrop, setOpenDrop] = useState(false);
   const { locale, locales, asPath } = useRouter();
 
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
   return (
     <div className={styles.headerBig}>
       <div className={styles.header}>
@@ -49,26 +56,25 @@ function Header() {
             );
           })}
         </div>
-
         <div className={styles.searchLangDrop}>
-          <div className={styles.dropdown}>
-            <button
-              onClick={() => setOpenDrop(!openDrop)}
-              className={styles.dropbtn}
-            >
-              <label htmlFor="check" className={styles.label}>
-                <input type="checkbox" className={styles.input} />
-                <span className={styles.span}></span>
-                <span className={styles.span}></span>
-                <span className={styles.span}></span>
-              </label>
-            </button>
-            <div
-              className={`${openDrop ? styles.show : ""} ${
-                styles.dropdown_content
-              }`}
-              onClick={() => setOpenDrop(false)}
-            >
+          <button
+            onClick={() => {
+              setOpenDrop(!openDrop)
+              openNav()
+            }}
+            className={styles.dropbtn}
+          >
+            <label htmlFor="check" className={styles.label}>
+              <input type="checkbox" className={styles.input} />
+              <span className={styles.span}></span>
+              <span className={styles.span}></span>
+              <span className={styles.span}></span>
+            </label>
+          </button>
+
+          <div id="myNav" className={styles.overlay} >
+            <a href="javascript:void(0)" className={styles.closebtn} onClick={() => closeNav()}>&times;</a>
+            <div className={styles.overlay__content}>
               {blogPosts.headLink
                 .filter((p) => p.locale === locale)
                 .map((blogPost, i) => {

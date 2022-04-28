@@ -18,5 +18,126 @@
             "h4": "CHIROQLAR HAQIDA HAMMASI - BU YERDA",
             "button": "Hoziroq buyurtma bering"
         }
+    ],
+    "about2": [
+        {
+            "locale": "en",
+            "p": "some work",
+            "h1": "REMOVED",
+            "h4": "we have",
+            "button": "Order now"
+        },
+        {
+            "locale": "ru",
+            "p": "немного работ",
+            "h1": "СНЯТЫХ",
+            "h4": "у нас",
+            "button": "Заказать сейчас"
+        },
+        {
+            "locale": "uz",
+            "p": "ba'zi ish",
+            "h1": "OLINDI",
+            "h4": "bizda ... bor",
+            "button": "Hoziroq buyurtma bering"
+        }
+    ],
+    "about1": [
+        {
+            "locale": "en",
+            "p": "lets talk a little ",
+            "h1": "About ours",
+            "h4": "companies",
+            "button": "Order now"
+        },
+        {
+            "locale": "ru",
+            "p": "немного работ",
+            "h1": "О нашей",
+            "h4": "компании",
+            "button": "Заказать сейчас"
+        },
+        {
+            "locale": "uz",
+            "p": "ba'zi ish",
+            "h1": "Bizning",
+            "h4": "kompaniyamiz",
+            "button": "Hoziroq buyurtma bering"
+        }
+    ],
+    "about3": [
+        {
+            "locale": "en",
+            "h1": "Our",
+            "h4": "Services",
+            "button": "Order now"
+        },
+        {
+            "locale": "ru",
+            "h1": "Наши",
+            "h4": "сервисы",
+            "button": "Заказать сейчас"
+        },
+        {
+            "locale": "uz",
+            "h1": "Bizning",
+            "h4": "Xizmatlar",
+            "button": "Hoziroq buyurtma bering"
+        }
+    ],
+    "about4": [
+        {
+            "locale": "en",
+            "h1": "A little",
+            "h4": "Our",
+            "button": "Team",
+            "button2": "View all"
+        },
+        {
+            "locale": "ru",
+            "h1": "Немного",
+            "h4": "Наши",
+            "button": "Команда",
+            "button2": "Посмотреть все"
+        },
+        {
+            "locale": "uz",
+            "h1": "Ozgina",
+            "h4": "Bizning",
+            "button": "Jamoamiz",
+            "button2": "Hammasini ko'rish"
+        }
+    ],
+    "contact": [
+        {
+            "locale": "en",
+            "h1": "connect",
+            "h4": "with us",
+            "title": "",
+            "name": "Name",
+            "phone": "Phone",
+            "message": "Message",
+            "button": "SEND"
+        },
+        {
+            "locale": "ru",
+            "h1": "связаться",
+            "h4": " с нами",
+            "title": "",
+            "name": "имя",
+            "phone": "Телефон",
+            "message": "Сообщение",
+            "button": "ОТПРАВИТЬ"
+        },
+        {
+            "locale": "uz",
+            "h1": "Ozgina",
+            "h4": "Bizning",
+            "title": "",
+            "name": "Ismingiz",
+            "phone": "Nomeringiz",
+            "message": "Xabar",
+            "button": "Yuborish"
+        }
     ]
 }

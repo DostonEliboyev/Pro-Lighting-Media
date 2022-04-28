@@ -85,19 +85,19 @@
       },
       {
         "locale": "en",
-        "title": "Drawing",
+        "title": "3D visualisation",
         "link":"/drawing"
 
       },
       {
         "locale": "ru",
-        "title": "Рисование",
+        "title": "3D визуализация",
         "link":"/drawing"
 
       },
       {
         "locale": "uz",
-        "title": "Chizma",
+        "title": "3D vizualizatsiya",
         "link":"/drawing"
       }
   ]

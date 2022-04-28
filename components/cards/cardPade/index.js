@@ -16,11 +16,11 @@ function CardPade({ team }) {
                 <div className={styles.imagecontainer}>
                   <Image
                     src={blogPost.src}
-                    alt=""
+                    alt={blogPost.FullName}
                     className={styles.imageDeg}
                     width={400}
                     height={400}
-                    layout="fill"
+                  
                   />
                 </div>
               </div>

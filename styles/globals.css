@@ -177,7 +177,7 @@ a {
 
 .allAboutCenter span {
   color: #fff;
-  font-size: 48px;
+  font-size: 48px !important;
   font-weight: 700;
 
   display: flex;
@@ -187,7 +187,7 @@ a {
   font-family: var(--font);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--alt-stroke-color);
-  z-index: 7;
+  text-align: center;
 }
 
 .allAboutCenter p {
@@ -214,10 +214,10 @@ a {
   position: relative;
 }
 #ProCicyle {
-  -webkit-animation: rotation 6s infinite linear;
+  animation: rotation 6s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);
   }

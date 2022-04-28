@@ -21,7 +21,7 @@ export default function Home() {
       <section className={styles.container}>
         <section className={styles.allAbout}>
 
-        {onehero.about
+          {onehero.about
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
               return (
@@ -32,25 +32,32 @@ export default function Home() {
                 </div>
               );
             })}
-         
+
         </section>
 
         <section className={styles.outTeam}>
           <div className={styles.ellipse44}>
             <Image src={ellios44} alt="" />
           </div>
-          <div className={styles.outTeamLeft}>
-            <p className={styles.outTeamTitel}>
-              lets talk a little <span>About ours</span>
-            </p>
-            <div className={styles.leftBottomImg}>
-              <Image src={diskotik2} alt="" />
-            </div>
-            <div className={styles.topRightImg}>
-              <Image src={diskotik} alt="" />
-              <p className={styles.topRightTitle}>companies</p>
-            </div>
-          </div>
+          {onehero.about1
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <div className={styles.outTeamLeft} key={i}>
+                  <p className={styles.outTeamTitel}>
+                    {blogPost.p}<span>{blogPost.h1}</span>
+                  </p>
+                  <div className={styles.leftBottomImg}>
+                    <Image src={diskotik2} alt="" />
+                  </div>
+                  <div className={styles.topRightImg}>
+                    <Image src={diskotik} alt="" />
+                    <p className={styles.topRightTitle}>{blogPost.h4}</p>
+                  </div>
+                </div>
+              );
+            })}
+
 
           <div className={styles.outTeamRigth}>
 
@@ -69,12 +76,19 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.someWork}>
-          <div>
-            <p className={styles.HeadTitLetter}>some work</p>
-            <h1 className="whiteYellowTittle">
-              <span>REMOVED</span> we have
-            </h1>
-          </div>
+          {onehero.about2
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <div key={i}> 
+                  <p className={styles.HeadTitLetter}>{blogPost.p}</p>
+                  <h1 className="whiteYellowTittle">
+                    <span>{blogPost.h1}</span> {blogPost.h4}
+                  </h1>
+                </div>
+
+              );
+            })}
 
           {/**/}
           <SquareForty />

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
+import onehero from "../../public/lang/onehero.json";
 import styles from "./square.module.css";
 import Frame1 from "/public/ourwork/Frame1.png";
 import Frame2 from "/public/ourwork/Frame2.png";
@@ -14,6 +16,7 @@ import ProCircleGold from "../proCircleGold/index";
 import ProCircleWhite from "./../proCircleWhite/index";
 
 export default function SquareForty() {
+  const { locale, locales, asPath } = useRouter();
   return (
     <div className={styles.con_wrapp}>
     
@@ -93,7 +96,14 @@ export default function SquareForty() {
         </div>
 
       </div>
-      <button className={styles.btnSubmit}>Now Submit</button>
+      {onehero.about
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+              
+                  <button className={styles.btnSubmit} key={i}>{blogPost.button}</button>
+              );
+            })}
     </div>
   );
 }

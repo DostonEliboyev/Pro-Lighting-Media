@@ -1,4 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
+import { useRouter } from "next/router";
+import onehero from "../../../public/lang/onehero.json";
+
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,21 +15,25 @@ import Draw from "../../../public/lang/drawing.json";
 
 export default function SimpleSlider() {
   const sliderRef = useRef(null);
-
+  const [open, setOpen] = useState(false);
+  const [imgOpen, setImgOpen] = useState(null);
+  const { locale, locales, asPath } = useRouter();
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
   const settings = {
     className: `${styles.SlideImg}`, // <== your custom name
     dots: true,
     infinite: true,
-    speed: 2000,
+    speed: 5000,
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: false,
     ref: sliderRef,
     variableWidth: 350,
     adaptiveHeight: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     autoplay: true,
-    speed: 2000,
+    speed: 1000,
 
     responsive: [
       {
@@ -71,9 +80,16 @@ export default function SimpleSlider() {
     <section className={styles.contianer}>
       <div>
         <div className={styles.SlideHead}>
-          <h1 className="whiteYellowTittle">
-            <span>Our</span> Serves
-          </h1>
+          {onehero.about3
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <h1 className="whiteYellowTittle" key={i}>
+                  <span>{blogPost.h1}</span> {blogPost.h4}
+                </h1>
+              );
+            })}
+
           <div className={styles.prevNext}>
             <div onClick={() => sliderRef.current.slickPrev()}>
               <Image alt="" src={Prev} />
@@ -84,13 +100,20 @@ export default function SimpleSlider() {
           </div>
         </div>
         <Slider {...settings}>
-          {Draw.drawing.map((img,index) => (
-              <div key={index} className={styles.ImgStyle} >
-                <Image alt="" src={img.image} width={500} height={350} />
-              </div>
-            ))}
+          {Draw.drawing.map((img, index) => (
+            <div key={index} className={styles.ImgStyle} onClick={() => {
+              onOpenModal()
+              setImgOpen(img.image)
+            }}>
+              <Image alt="" src={img.image} width={500} height={350} />
+            </div>
+          ))}
         </Slider>
       </div>
+      <Modal open={open} onClose={onCloseModal} center>
+        <Image alt="" src={imgOpen} layout="fill" />
+      </Modal>
+
     </section>
   );
 }
