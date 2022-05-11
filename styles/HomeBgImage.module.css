@@ -19,7 +19,7 @@
 .shadowBgFull{
     position: absolute;
     bottom: -57px;
-    height: 112%;
+    /* height: 112%; */
     width: 100%;
     background: rgba(18, 18, 18, 0.6);
 }

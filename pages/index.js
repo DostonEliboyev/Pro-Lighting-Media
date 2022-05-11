@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import diskotik from "../asset/img/diskotik.png";
 import diskotik2 from "../asset/img/diskotik2.png";
+import Ellipse9 from "../asset/img/Ellipse/Ellipse9.png";
 import ellios44 from "../asset/img/Ellipse/Ellipsbg44.png";
 import styles from "../styles/Home.module.css";
 import ContactUs from "../components/form/form";
@@ -18,6 +19,9 @@ export default function Home() {
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
+      <div className={styles.Ellipse9}>
+        <Image src={Ellipse9}/>
+      </div>
       <section className={styles.container}>
         <section className={styles.allAbout}>
 

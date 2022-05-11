@@ -1,5 +1,20 @@
 .containerBig {
   background: #0e0f0e;
+  position: relative;
+   /* background-image: url("../asset/img/Ellipse/Ellipse9.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60%;
+  background-position: 104% 18%; */
+
+}
+
+.Ellipse9 {
+  position: absolute;
+  top: 656px;
+  right: 34px;
+  width: 1250px;
+
 }
 
 .container {
@@ -39,7 +54,7 @@
   font-family: var(--font);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--alt-stroke-color);
-  text-align: center ;
+  text-align: center;
 }
 
 .allAboutCenter p {
@@ -70,11 +85,11 @@
   position: absolute;
   top: -222px;
   right: 0;
-  background-image: url("../asset/img/Ellipse/ell800w.png");
+  /* background-image: url("../asset/img/Ellipse/ell800w.png");
   background-repeat: no-repeat;
   background-position: right;
 
-  background-size: 80%;
+  background-size: 80%; */
 }
 
 .ellipse9 {
@@ -216,11 +231,13 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
 @media only screen and (max-width: 1440px) {
   .outTeam {
     padding: 35px 135px;
     height: 100vh;
   }
+
   .someWork {
     padding: 35px 135px;
     height: 105vh;
@@ -231,6 +248,7 @@
   .outTeam {
     padding: 30px 50px;
   }
+
   .someWork {
     padding: 30px 50px;
     height: 97vh;
@@ -250,16 +268,20 @@
     height: 90vh;
     margin-bottom: 110px;
   }
+
   .ellipse44 {
     display: none;
   }
+
   .outTeamRigth {
     width: 100%;
     margin-top: 20px;
   }
+
   .outTeamRigth p {
     width: 100%;
   }
+
   .outTeamLeft {
     width: 100%;
     margin-left: 130px;
@@ -274,11 +296,13 @@
   .outTeam {
     padding: 0 20px;
   }
+
   .outTeamTitel {
     font-size: 17px;
     top: -84px;
     left: 20px;
   }
+
   .outTeamTitel span {
     font-size: 28px;
   }
@@ -286,10 +310,12 @@
   .ProContianer div {
     display: none;
   }
+
   .someWork {
     padding: 0 20px;
     height: 82vh;
   }
+
   .outTeamLeft {
     width: 100%;
     margin-left: 26px;
@@ -345,6 +371,7 @@
     border: 1px solid #fddb08;
     border-radius: 10px;
   }
+
   .topRightTitle {
     top: 7px;
     left: 105px;
@@ -363,7 +390,8 @@
   .allAbout {
     padding: 0 50px;
   }
-  .wrapper{
+
+  .wrapper {
     flex-wrap: wrap;
   }
 }
@@ -372,6 +400,7 @@
   .allAbout {
     padding: 0 30px;
   }
+
   .allAboutCenter span {
     font-size: 30px;
   }
@@ -382,10 +411,12 @@
     padding: 0 20px;
     height: 55vh
   }
+
   .allAboutCenter span {
     text-align: center;
     font-size: 16px;
   }
+
   .allAboutCenter p {
     font-size: 15px;
     margin: 20px 0;
