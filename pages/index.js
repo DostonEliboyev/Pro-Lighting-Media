@@ -14,14 +14,15 @@ import SquareForty from "./../components/squareFortyFive/index";
 import OurPartner from "./../components/ourPartner/index";
 import ProCircleGold from "../components/proCircleGold/index";
 import onehero from "../public/lang/onehero.json";
+import Company from "../components/company";
 export default function Home() {
   const { locale, locales, asPath } = useRouter();
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
-      <div className={styles.Ellipse9}>
+      {/* <div className={styles.Ellipse9}>
         <Image src={Ellipse9}/>
-      </div>
+      </div> */}
       <section className={styles.container}>
         <section className={styles.allAbout}>
 
@@ -40,9 +41,9 @@ export default function Home() {
         </section>
 
         <section className={styles.outTeam}>
-          <div className={styles.ellipse44}>
+          {/* <div className={styles.ellipse44}>
             <Image src={ellios44} alt="" />
-          </div>
+          </div> */}
           {onehero.about1
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
@@ -84,7 +85,7 @@ export default function Home() {
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
               return (
-                <div key={i}> 
+                <div key={i}>
                   <p className={styles.HeadTitLetter}>{blogPost.p}</p>
                   <h1 className="whiteYellowTittle">
                     <span>{blogPost.h1}</span> {blogPost.h4}
@@ -93,15 +94,12 @@ export default function Home() {
 
               );
             })}
-
-          {/**/}
           <SquareForty />
-
-          {/**/}
         </section>
         <section>
           <SimpleSlider />
         </section>
+        <Company/>
         <RectangleCard />
         <div className="ProContianer">
           <ProCircleGold Gtop="0" Gright="0" />

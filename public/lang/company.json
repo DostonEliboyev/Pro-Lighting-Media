@@ -1,0 +1,99 @@
+{
+    "comContext": [
+        {
+            "locale": "en",
+            "title": "From concept to implementation",
+            "description": "Our team ensures that any complex requirements for the organization of the event itself are met."
+        },
+        {
+            "locale": "ru",
+            "title": "От концепции до реализации",
+            "description": "Наша команда обеспечивает выполнение любых сложнейших требований по организации самого мероприятия."
+        },
+        {
+            "locale": "uz",
+            "title": "Kontseptsiyadan amalga oshirishgacha",
+            "description": "Bizning jamoamiz tadbirni tashkil etish uchun har qanday murakkab talablarning bajarilishini ta'minlaydi."
+        },
+
+        {
+            "locale": "en",
+            "title": "Any turnkey event",
+            "description": "The Prolighting Media equipment park has everything you need for various corporate events."
+        },
+        {
+            "locale": "ru",
+            "title": "Любое событие под ключ",
+            "description": "В парке оборудования Prolighting Media есть всё необходимое для проведения различных корпоративных."
+        },
+        {
+            "locale": "uz",
+            "title": "Har qanday kalit voqea",
+            "description": "Prolighting Media uskunalari parki turli korporativ tadbirlar uchun kerak bo'lgan hamma narsaga ega."
+        },
+
+        {
+            "locale": "en",
+            "title": "Lifts",
+            "description": "The Prolighting Media equipment park has everything you need for various corporate events."
+        },
+        {
+            "locale": "ru",
+            "title": "Подъемники",
+            "description": "В парке оборудования Prolighting Media есть всё необходимое для проведения различных корпоративных."
+        },
+        {
+            "locale": "uz",
+            "title": "Liftlar",
+            "description": "Prolighting Media uskunalari parki turli korporativ tadbirlar uchun kerak bo'lgan hamma narsaga ega."
+        },
+
+        {
+            "locale": "en",
+            "title": "Full technical support",
+            "description": "We provide a full range of technical support for events of any level: from conferences, presentations, corporate parties to sports events and mass concerts."
+        },
+        {
+            "locale": "ru",
+            "title": "Полное техническое обеспечение",
+            "description": "Мы обеспечиваем полный комплекс технического обеспечения мероприятий любого уровня: от конференций, презентаций, корпоративов до спортивных мероприятий и массовых концертов."
+        },
+        {
+            "locale": "uz",
+            "title": "To'liq texnik yordam",
+            "description": "Biz har qanday darajadagi tadbirlar uchun to'liq texnik yordam ko'rsatamiz: konferentsiyalar, taqdimotlar, korporativ partiyalardan sport tadbirlari va ommaviy kontsertlargacha."
+        },
+
+        {
+            "locale": "en",
+            "title": "We guarantee results",
+            "description": "Our team ensures the fulfillment of any of the most complex requirements for the organization of the event itself, including work on competent selection."
+        },
+        {
+            "locale": "ru",
+            "title": "Даём гарантию на результат",
+            "description": "Наша команда обеспечивает выполнение любых сложнейших требований по организации самого мероприятия, включающих в себя работы по грамотному подбору."
+        },
+        {
+            "locale": "uz",
+            "title": "Bizning jamoamiz tadbirni o'zi tashkil etish uchun har qanday eng murakkab talablarning bajarilishini ta'minlaydi, shu jumladan malakali tanlash bo'yicha ishlar.",
+            "description": "Biz natijalarni kafolatlaymiz"
+        },
+
+        {
+            "locale": "en",
+            "title": "Truss structures",
+            "description": "Farms use in their work almost all the technical services present on the site (sound, light, video, and others)."
+        },
+        {
+            "locale": "ru",
+            "title": "Фермовые конструкции",
+            "description": "Фермы используют в своей работе практически все технические службы, присутствующие на площадке (звук, свет, видео и другие)."
+        },
+        {
+            "locale": "uz",
+            "title": "Truss tuzilmalari",
+            "description": "Fermer xo'jaliklari o'z ishlarida saytda mavjud bo'lgan deyarli barcha texnik xizmatlardan (ovoz, yorug'lik, video va boshqalar) foydalanadilar."
+        }
+    ]
+}
