@@ -80,7 +80,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className={styles.someWork}>
+        {/* <section className={styles.someWork}>
           {onehero.about2
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
@@ -95,7 +95,7 @@ export default function Home() {
               );
             })}
           <SquareForty />
-        </section>
+        </section> */}
         <section>
           <SimpleSlider />
         </section>

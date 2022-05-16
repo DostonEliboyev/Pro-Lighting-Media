@@ -258,7 +258,7 @@ a {
 }
 .react-responsive-modal-modal{
   width: 70% !important;
-  height: 95vh !important;
+  /* height: 95vh !important; */
   background: rgba(18, 18, 18, 0.8) !important;
   max-width: 90% !important;
   color: #fff;

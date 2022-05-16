@@ -61,8 +61,8 @@ function Rent() {
 
         <section className={styles.contianerGrid}>
           <div className="ProContianer">
-            <ProCircleGold Gtop="0" Gright="-130" />
-            <ProCircleGold Gbottom="120" Gleft="-100" />
+            {/* <ProCircleGold Gtop="0" Gright="-130" />
+            <ProCircleGold Gbottom="120" Gleft="-100" /> */}
             <Tabs>
               <TabList className={styles.Tab}>
                 <Tab className={styles.TabChild}>Stage special effects</Tab>
@@ -72,36 +72,115 @@ function Rent() {
                 <Tab className={styles.TabChild}>Lighting equipment</Tab>
               </TabList>
 
-              <TabPanel className={styles.TabPanel}>
-                {Products.product1
-                  .filter((p) => p.locale===locale)
-                  .map((blogPost, i) => {
-                    return (
-                      <div
-                        className={styles.card}
-                        key={i}
-                        onClick={() => {
-                          onOpenModal()
-                          setOpenData(blogPost)
-                        }}
-                      >
-                        <Image src={`${blogPost.image}`} layout='fill' alt="" />
-                        <h3>{blogPost.title}</h3>
-                      </div>
-                    );
-                  })}
+              <TabPanel>
+                <div className={styles.TabPanel}>
+                  {Products.product1
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+                </div>
+
               </TabPanel>
               <TabPanel>
-                <h2>Any content 2</h2>
+                <div className={styles.TabPanel}>
+                  {Products.product2
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt="" />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+                </div>
+              </TabPanel>
+              <TabPanel >
+                <div className={styles.TabPanel}>
+                  {Products.product3
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt="" />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+                </div>
+
+              </TabPanel>
+              <TabPanel >
+                <div className={styles.TabPanel}>
+                {Products.product4
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+
+                </div>
               </TabPanel>
               <TabPanel>
-                <h2>Any content 3</h2>
-              </TabPanel>
-              <TabPanel>
-                <h2>Any content 4</h2>
-              </TabPanel>
-              <TabPanel>
-                <h2>Any content 5</h2>
+                <div className={styles.TabPanel}>
+                {Products.product5
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+
+                </div>
+
               </TabPanel>
             </Tabs>
           </div>
@@ -141,11 +220,12 @@ function Rent() {
                       width: "40%",
                     }}
                   >
-                    <Image src={`${openData?.image}`}  width="400px" height="400px" alt="" />
+                    <Image src={`${openData?.image}`} width="400px" height="400px" alt="" />
                   </div>
                   <div
                     style={{
                       width: "60%",
+                      paddingLeft:"60px"
                     }}
                   >
                     <p
@@ -167,15 +247,15 @@ function Rent() {
                     </p>
                   </div>
                 </div>
-                <div
+                {/* <div
                   style={{
                     width: "100%",
                     height: "6%",
                   }}
                 >
-                  <h1 style={{ fontSize: "22px" }}>{ openData?.scrPip}</h1>
-                </div>
-                <div
+                  <h1 style={{ fontSize: "22px" }}>{openData?.scrPip}</h1>
+                </div> */}
+                {/* <div
                   style={{
                     width: "100%",
                     height: "30%",
@@ -223,7 +303,7 @@ function Rent() {
                     <Image src={img} alt="" />
                     <h3>Light Sky F400BSW</h3>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Modal>
           </div>
