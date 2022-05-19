@@ -247,6 +247,9 @@
     padding: 35px 135px;
     height: 105vh;
   }
+  .allAbout{
+    height: 100vh;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -257,6 +260,9 @@
   .someWork {
     padding: 30px 50px;
     height: 97vh;
+  }
+  .allAbout{
+    height: 85vh;
   }
 }
 

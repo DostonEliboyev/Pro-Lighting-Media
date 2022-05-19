@@ -20,9 +20,7 @@ export default function Home() {
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
-      {/* <div className={styles.Ellipse9}>
-        <Image src={Ellipse9}/>
-      </div> */}
+    
       <section className={styles.container}>
         <section className={styles.allAbout}>
 

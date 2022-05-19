@@ -11,6 +11,7 @@ import Dicinvest from "/public/partnior/Dicinvest.png";
 import Tashkent_City from "/public/partnior/Tashkent_City.png";
 import mirai from "/public/partnior/mirai.png";
 import mvazir from "/public/partnior/mvazir.png";
+import toshshaxhokim from "/public/partnior/toshshaxhokim.png";
 
 const OurPartner = () => {
   return (
@@ -22,7 +23,7 @@ const OurPartner = () => {
         <Image className={styles.loga_img} alt="" src={hilton} />
       </div>
       <div>
-        <Image className={styles.loga_img} alt="" src={iosis} />
+        <Image className={styles.loga_img} alt="" src={toshshaxhokim} />
       </div>
       <div>
         <Image className={styles.loga_img} alt="" src={Karzinka} />

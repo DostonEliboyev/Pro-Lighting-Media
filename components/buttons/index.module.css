@@ -20,3 +20,25 @@
 .order__titile{
  padding-right: 20px;
 }
+
+@media only screen and (max-width: 1440px) {
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+.order__titile{
+  font-size: 14px;
+}
+.order__img{
+  width: 50%;
+}
+}

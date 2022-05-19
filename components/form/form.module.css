@@ -112,7 +112,7 @@
     display: block;;
     margin: auto;
     width: 100%;
-    padding: 30px 85px;
+    padding: 30px 50px;
   }
 }
 
@@ -126,8 +126,8 @@
   }
   .ContactUs_img1{
     display: block;
-    padding-top: 45px;
-    width: 90%;
+    padding: 0;
     margin: auto;
+
   }
 }
