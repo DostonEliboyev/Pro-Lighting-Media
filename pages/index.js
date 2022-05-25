@@ -22,7 +22,8 @@ export default function Home() {
       <HomeBgImage image={HomeBacImage} />
     
       <section className={styles.container}>
-        <section className={styles.allAbout}>
+
+        <section className={styles.allAbout} >
 
           {onehero.about
             .filter((p) => p.locale === locale)
@@ -50,6 +51,7 @@ export default function Home() {
                   <p className={styles.outTeamTitel}>
                     {blogPost.p}<span>{blogPost.h1}</span>
                   </p>
+                  
                   <div className={styles.leftBottomImg}>
                     <Image src={diskotik2} alt="" />
                   </div>

@@ -303,6 +303,18 @@
   .head__main a{
     font-size: 10px;
   }
+  .head__main {
+    display: none;
+  }
+  .searchLang {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .searchLangDrop {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 768px) {

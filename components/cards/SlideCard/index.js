@@ -75,6 +75,7 @@ export default function SimpleSlider() {
       },
     ],
   };
+  console.log('imgOpen', imgOpen)
 
   return (
     <section className={styles.contianer}>
@@ -110,9 +111,12 @@ export default function SimpleSlider() {
           ))}
         </Slider>
       </div>
-      <Modal open={open} onClose={onCloseModal} center>
-        <Image alt="" src={imgOpen} layout="fill" />
+      <Modal open={open} onClose={onCloseModal} center >
+        <div className={styles.imagecontainer}>
+          <img alt="" src={imgOpen}  className={styles.image} />
+        </div>
       </Modal>
+
 
     </section>
   );

@@ -34,8 +34,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  /* border: 1px solid red; */
+  /* background-image: url('../asset/img/Home_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .allAboutCenter {
@@ -102,7 +105,9 @@
   right: -222px;
   width: 1000px;
 }
-
+.outTeamLeftContianer{
+  
+}
 .outTeamLeft {
   width: 50%;
   height: 100%;
@@ -115,10 +120,11 @@
 .topRightImg {
   width: 200px;
   height: 200px;
-  background-color: #9b4f4f;
+ 
   position: relative;
   margin-bottom: 40px;
   border-radius: 10px;
+  z-index:0;
 }
 
 .topRightImg span {
@@ -166,9 +172,10 @@
 .leftBottomImg {
   width: 200px;
   height: 200px;
-  background-color: #9b4f4f;
+
   position: relative;
   border-radius: 10px;
+  z-index:0;
 }
 
 .leftBottomImg span {
@@ -295,7 +302,7 @@
 
   .outTeamLeft {
     width: 100%;
-    margin-left: 130px;
+    margin-left: 70px;
   }
 
   .outTeamTitel {
@@ -335,7 +342,7 @@
   .leftBottomImg {
     width: 130px;
     height: 130px;
-    background-color: #9b4f4f;
+ 
     position: relative;
     border-radius: 10px;
   }
@@ -360,7 +367,7 @@
   .topRightImg {
     width: 130px;
     height: 130px;
-    background-color: #9b4f4f;
+   
     position: relative;
     margin-bottom: 40px;
     border-radius: 10px;

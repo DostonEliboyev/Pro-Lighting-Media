@@ -264,6 +264,15 @@ a {
   color: #fff;
   padding: 40px 100px !important;
 }
+.react-responsive-modal-closeButton{
+  background: linear-gradient(105.56deg, #fddb08 18.43%, #f5952a 89.58%);
+  -webkit-background-clip: icon;
+  background-clip: icon;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -280,6 +289,29 @@ a {
   border-radius: 6px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+  .react-responsive-modal-modal {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .react-responsive-modal-modal {
+    padding: 0 !important;
+    width: 100%  !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .react-responsive-modal-modal {
+    padding: 0 !important;
+    width: 100%  !important;
+  }
+}
 
 
 /* 
