@@ -48,16 +48,16 @@ export default function Home() {
             .map((blogPost, i) => {
               return (
                 <div className={styles.outTeamLeft} key={i}>
-                  <p className={styles.outTeamTitel}>
+                  {/* <p className={styles.outTeamTitel}>
                     {blogPost.p}<span>{blogPost.h1}</span>
                   </p>
-                  
+                  <p className={styles.topRightTitle}>{blogPost.h4}</p> */}
+
                   <div className={styles.leftBottomImg}>
                     <Image src={diskotik2} alt="" />
                   </div>
                   <div className={styles.topRightImg}>
                     <Image src={diskotik} alt="" />
-                    <p className={styles.topRightTitle}>{blogPost.h4}</p>
                   </div>
                 </div>
               );

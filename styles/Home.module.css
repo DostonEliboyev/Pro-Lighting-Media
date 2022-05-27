@@ -105,9 +105,7 @@
   right: -222px;
   width: 1000px;
 }
-.outTeamLeftContianer{
-  
-}
+
 .outTeamLeft {
   width: 50%;
   height: 100%;
@@ -396,6 +394,75 @@
     font-size: 24px;
   }
 }
+
+
+@media only screen and (max-width: 455px) {
+
+
+  .outTeamLeft {
+    width: 100%;
+    margin-left: 26px;
+  }
+
+  .leftBottomImg {
+    width: 130px;
+    height: 130px;
+ 
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .leftBottomImg span {
+    z-index: 1;
+  }
+
+  .leftBottomImg::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 22px;
+    left: -26px;
+    z-index: 0;
+    background-color: #fff0;
+    border-radius: 10px;
+    border: 1px solid #fddb08;
+  }
+
+  .topRightImg {
+    width: 130px;
+    height: 130px;
+   
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .topRightImg span {
+    z-index: 1;
+  }
+
+  .topRightImg::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: -21px;
+    left: 20px;
+    z-index: 0;
+    background-color: #fff0;
+    border: 1px solid #fddb08;
+    border-radius: 10px;
+  }
+
+  .topRightTitle {
+    top: 7px;
+    left: 105px;
+    font-size: 24px;
+  }
+}
+
+
 
 
 @media only screen and (max-width: 1440px) {

@@ -9,7 +9,7 @@ import blogPosts from "../public/lang/head.json";
 function Header() {
   const [openDrop, setOpenDrop] = useState(false);
   const { locale, locales, asPath } = useRouter();
-
+  console.log("openDrop",openDrop)
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
@@ -79,8 +79,8 @@ function Header() {
                 .filter((p) => p.locale === locale)
                 .map((blogPost, i) => {
                   return (
-                    <Link href={`${blogPost.link}`} key={i}>
-                      <a>{blogPost.title}</a>
+                    <Link href={`${blogPost.link}`} key={i} >
+                      <a onClick={()=>closeNav()}>{blogPost.title}</a>
                     </Link>
                   );
                 })}
