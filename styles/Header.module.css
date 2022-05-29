@@ -34,15 +34,10 @@
   border-bottom: #fff 1px solid;
 }
 
-.head__main a:active {
+.head__main__a {
   border-bottom: #fff 1px solid;
 }
-.head__main a:focus {
-  border-bottom: #fff 1px solid;
-}
-.head__main a:target {
-  border-bottom: #fff 1px solid;
-}
+
 /* .head__main a:after{
   content:'';
   position:absolute;

@@ -1,3 +1,4 @@
+
 import { useForm } from "react-hook-form";
 import Image from "next/image";
 import styles from "./form.module.css";
@@ -9,8 +10,30 @@ function ContactUs() {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+
+  const onSubmit = (data,e) => {
+      const token = '5369599306:AAH2exXdgoXUqIk9SnRVyMPTGSN5EmQAcmQ';
+      const chatId = '-748918283';
+      const message =  ` Ismi: ${data?.firstName}\n %0A  Number: ${data?.phone}\n%0A  Description: ${data?.textAre}`;
+      const url =   `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`
+        if (data) {
+          try{
+            let api = new XMLHttpRequest()
+            api.open("GET",url,true)
+            api.send()
+            
+          }catch(error){
+            console.log("errors");
+          }finally{
+            console.log("Success");
+            reset()
+          }
+        }
+        
+  
+  };
   const { locale, locales, asPath } = useRouter();
 
   return (
@@ -27,15 +50,14 @@ function ContactUs() {
                 {blogPost.h1} <span>{blogPost.h4}</span>
               </h1>
 
-              <p>
-                {blogPost.title}              </p>
+              <p>{blogPost.title}</p>
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 className={styles.ContactUs_inputs}
               >
                 <input {...register("firstName")} placeholder={blogPost.name} />
 
-                <input {...register("age", { pattern: /\d+/ })} placeholder={blogPost.phone} />
+                <input {...register("phone", { pattern: /\d+/ })}  placeholder={blogPost.phone} />
                 <textarea
                   name="w3review"
                   placeholder={blogPost.message}

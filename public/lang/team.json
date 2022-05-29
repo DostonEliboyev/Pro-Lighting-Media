@@ -149,6 +149,27 @@
     },
     {
       "locale": "en",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Axmedov  Furgat",
+      "job": "Engineer"
+    },
+    {
+      "locale": "ru",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Ахмедов Фуркат",
+      "job": "Инженер"
+    },
+    {
+      "locale": "uz",
+      "src": "/photos/man18.png",
+      "alt": " ",
+      "FullName": "Axmedov  Furqat",
+      "job": "Muhandis"
+    },
+    {
+      "locale": "en",
       "src": "/photos/man10.png",
       "alt": " ",
       "FullName": "Normetov Davron",
@@ -259,6 +280,7 @@
       "FullName": "Tagripov Sanzhar",
       "job": "Light engineer"
     },
+    
     {
       "locale": "ru",
       "src": "/photos/man12.png",
@@ -272,6 +294,27 @@
       "alt": " ",
       "FullName": "Tagripov Sanjar",
       "job": "Svet muhandisi"
+    },
+    {
+      "locale": "en",
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Yulchiev Muhammaddiyor",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Юлчиев Мухаммаддиёр",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "src": "/photos/man8.png",
+      "alt": " ",
+      "FullName": "Yo'lchiev Muhammaddiyor",
+      "job": "Texnik"
     },
     {
       "locale": "en",
@@ -313,6 +356,29 @@
       "src": "/photos/man5.png",
       "alt": " ",
       "FullName": "Baxtiyorov Abdullox",
+      "job": "Texnik"
+    },
+    
+    
+    {
+      "locale": "en",
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "Utkurov Shovkatzhon",
+      "job": "Technician"
+    },
+    {
+      "locale": "ru",
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "Ўткуров Шовкатжон",
+      "job": "Техник"
+    },
+    {
+      "locale": "uz",
+      "src": "/photos/man11.png",
+      "alt": " ",
+      "FullName": "O'tkurov Shovkatjon",
       "job": "Texnik"
     },
     {
@@ -398,70 +464,9 @@
       "alt": " ",
       "FullName": "Rahmatov Mahmudjon",
       "job": "Texnik"
-    },
-    {
-      "locale": "en",
-      "src": "/photos/man8.png",
-      "alt": " ",
-      "FullName": "Yulchiev Muhammaddiyor",
-      "job": "Technician"
-    },
-    {
-      "locale": "ru",
-      "src": "/photos/man8.png",
-      "alt": " ",
-      "FullName": "Юлчиев Мухаммаддиёр",
-      "job": "Техник"
-    },
-    {
-      "locale": "uz",
-      "src": "/photos/man8.png",
-      "alt": " ",
-      "FullName": "Yo'lchiev Muhammaddiyor",
-      "job": "Texnik"
-    },
-    {
-      "locale": "en",
-      "src": "/photos/man11.png",
-      "alt": " ",
-      "FullName": "Utkurov Shovkatzhon",
-      "job": "Technician"
-    },
-    {
-      "locale": "ru",
-      "src": "/photos/man11.png",
-      "alt": " ",
-      "FullName": "Ўткуров Шовкатжон",
-      "job": "Техник"
-    },
-    {
-      "locale": "uz",
-      "src": "/photos/man11.png",
-      "alt": " ",
-      "FullName": "O'tkurov Shovkatjon",
-      "job": "Texnik"
-    },
-    {
-      "locale": "en",
-      "src": "/photos/man18.png",
-      "alt": " ",
-      "FullName": "Axmedov  Furgat",
-      "job": "Engineer"
-    },
-    {
-      "locale": "ru",
-      "src": "/photos/man18.png",
-      "alt": " ",
-      "FullName": "Ахмедов Фуркат",
-      "job": "Инженер"
-    },
-    {
-      "locale": "uz",
-      "src": "/photos/man18.png",
-      "alt": " ",
-      "FullName": "Axmedov  Furqat",
-      "job": "Muhandis"
     }
+  
+
   ],
   "Bosses": [
     {

@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <section className={styles.containerBig}>
       <HomeBgImage image={HomeBacImage} />
-    
+
       <section className={styles.container}>
 
         <section className={styles.allAbout} >
@@ -99,7 +99,7 @@ export default function Home() {
         <section>
           <SimpleSlider />
         </section>
-        <Company/>
+        <Company />
         <RectangleCard />
         <div className="ProContianer">
           <ProCircleGold Gtop="0" Gright="0" />
