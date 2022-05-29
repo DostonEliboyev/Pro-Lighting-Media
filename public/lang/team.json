@@ -84,7 +84,6 @@
       "FullName": "AXMEDOV DONIYOR ",
       "job": "Direktor o'rinbosari"
     },
-
     {
       "locale": "en",
       "src": "/photos/man19.png",
@@ -400,7 +399,6 @@
       "FullName": "Rahmatov Mahmudjon",
       "job": "Texnik"
     },
-
     {
       "locale": "en",
       "src": "/photos/man8.png",
@@ -422,7 +420,6 @@
       "FullName": "Yo'lchiev Muhammaddiyor",
       "job": "Texnik"
     },
-
     {
       "locale": "en",
       "src": "/photos/man11.png",
@@ -444,17 +441,6 @@
       "FullName": "O'tkurov Shovkatjon",
       "job": "Texnik"
     },
-
-
-
-
-
-
-
-
-
-
-
     {
       "locale": "en",
       "src": "/photos/man18.png",
@@ -475,8 +461,7 @@
       "alt": " ",
       "FullName": "Axmedov  Furqat",
       "job": "Muhandis"
-    },
-
+    }
   ],
   "Bosses": [
     {

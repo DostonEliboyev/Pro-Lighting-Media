@@ -60,7 +60,7 @@ export default function Home() {
                     <Image src={diskotik} alt="" />
                   </div>
                 </div>
-              );
+              )
             })}
 
 
