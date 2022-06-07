@@ -1,16 +1,14 @@
 import Image from "next/image";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import diskotik from "../asset/img/diskotik.png";
 import diskotik2 from "../asset/img/diskotik2.png";
-import Ellipse9 from "../asset/img/Ellipse/Ellipse9.png";
-import ellios44 from "../asset/img/Ellipse/Ellipsbg44.png";
 import styles from "../styles/Home.module.css";
 import ContactUs from "../components/form/form";
 import RectangleCard from "../components/cards/RectangleCard";
 import HomeBgImage from "../container/HomeBgImage";
 import SimpleSlider from "../components/cards/SlideCard/index";
 import HomeBacImage from "../asset/img/Home_bg.png";
-import SquareForty from "./../components/squareFortyFive/index";
 import OurPartner from "./../components/ourPartner/index";
 import ProCircleGold from "../components/proCircleGold/index";
 import onehero from "../public/lang/onehero.json";
@@ -18,7 +16,24 @@ import Company from "../components/company";
 export default function Home() {
   const { locale, locales, asPath } = useRouter();
   return (
+
     <section className={styles.containerBig}>
+      {onehero.about
+        .filter((p) => p.locale === locale)
+        .map((blogPost, i) => {
+          return (
+            <Head>
+              <title>{blogPost.h1}</title>
+              <meta name="description" content={`width=device-width, initial-${blogPost.h1}`} />
+              <meta property="og:title" content={`Learn more about ${blogPost.h4}`} />
+              <meta property="og:description" content={`${blogPost.h4}`}/>
+              <meta property="og:url" content="https://www.plm.uz/" />
+              <meta property="og:type" content="website" />
+              <link ref="icon" href="/favicon.ico" />
+            </Head>
+          );
+        })}
+
       <HomeBgImage image={HomeBacImage} />
 
       <section className={styles.container}>

@@ -1,6 +1,7 @@
 {
   "product1": [
     {
+      "id":1,
       "locale": "en",
       "script": "Description",
       "scrPip": "Similar products",
@@ -9,6 +10,7 @@
       "image": "/prodPhoto/mythos.jpg"
     },
     {
+      "id":1,
       "locale": "ru",
       "script": "Описание",
       "scrPip": "Похожие товары",
@@ -17,6 +19,7 @@
       "image": "/prodPhoto/mythos.jpg"
     },
     {
+      "id":1,
       "locale": "uz",
       "script": "Tavsif",
       "scrPip": "O'xshash mahsulotlar",

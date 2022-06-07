@@ -9,8 +9,7 @@ import blogPosts from "../public/lang/head.json";
 function Header() {
   const [openDrop, setOpenDrop] = useState(false);
   const { locale, locales, asPath } = useRouter();
-  console.log('asPath',asPath)
-  console.log('blogPosts',blogPosts)
+
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
