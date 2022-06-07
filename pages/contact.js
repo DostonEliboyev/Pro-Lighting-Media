@@ -15,7 +15,7 @@ function Contact() {
         .filter((p) => p.locale === locale)
         .map((blogPost, i) => {
           return (
-            <Head>
+            <Head key={i}>
               <title>{blogPost.h1}</title>
               <meta name="description" content={`width=device-width, initial-${blogPost.h1}`} />
               <meta property="og:title" content={`Learn more about ${blogPost.h4}`} />
