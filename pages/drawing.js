@@ -24,7 +24,7 @@ function Drawing() {
               <meta property="og:description" content={`${blogPost.h4}`} />
               <meta property="og:url" content="https://www.plm.uz/" />
               <meta property="og:type" content="website" />
-              <link ref="icon" href="/favicon.ico" />
+              <link ref="icon" href="/favicon.ico /" />
             </Head>
           );
         })}
