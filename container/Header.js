@@ -73,14 +73,14 @@ function Header() {
           </button>
 
           <div id="myNav" className={styles.overlay} >
-            <a  className={styles.closebtn} onClick={() => closeNav()}>&times;</a>
+            <span className={styles.closebtn} onClick={() => closeNav()}>&times;</span>
             <div className={styles.overlay__content}>
               {blogPosts.headLink
                 .filter((p) => p.locale === locale)
                 .map((blogPost, i) => {
                   return (
                     <Link href={`${blogPost.link}`} key={i} >
-                      <a onClick={()=>closeNav()}>{blogPost.title}</a>
+                      <span onClick={()=>closeNav()}>{blogPost.title}</span>
                     </Link>
                   );
                 })}
