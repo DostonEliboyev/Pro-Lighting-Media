@@ -73,7 +73,7 @@ function Header() {
           </button>
 
           <div id="myNav" className={styles.overlay} >
-            <a href="javascript:void(0)" className={styles.closebtn} onClick={() => closeNav()}>&times;</a>
+            <a  className={styles.closebtn} onClick={() => closeNav()}>&times;</a>
             <div className={styles.overlay__content}>
               {blogPosts.headLink
                 .filter((p) => p.locale === locale)
