@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import diskotik from "../asset/img/diskotik.png";
@@ -22,11 +23,11 @@ export default function Home() {
         .filter((p) => p.locale === locale)
         .map((blogPost, i) => {
           return (
-            <Head key={i}> 
+            <Head key={i}>
               <title>{blogPost.h1}</title>
               <meta name="description" content={`width=device-width, initial-${blogPost.h1}`} />
               <meta property="og:title" content={`Learn more about ${blogPost.h4}`} />
-              <meta property="og:description" content={`${blogPost.h4}`}/>
+              <meta property="og:description" content={`${blogPost.h4}`} />
               <meta property="og:url" content="https://www.plm.uz/" />
               <meta property="og:type" content="website" />
               <link rel="icon" href="/favicon.ico /" />
@@ -47,7 +48,9 @@ export default function Home() {
                 <div className={styles.allAboutCenter} key={i}>
                   <span>{blogPost.h1}</span>
                   <p>{blogPost.h4} </p>
-                  <button>{blogPost.button}</button>
+                  <Link href={"/contact"}>
+                    <button>{blogPost.button}</button>
+                  </Link>
                 </div>
               );
             })}

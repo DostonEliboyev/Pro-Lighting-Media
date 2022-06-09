@@ -38,7 +38,7 @@ function Work() {
               <span>ALL ABOUT LIGHTS - ITS ALL</span>
             </div>
 
-            <button>Now Submit</button>
+            {/* <button>Now Submit</button> */}
           </div>
         </section>
 

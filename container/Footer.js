@@ -24,7 +24,7 @@ function Footer() {
               .filter((p) => p.locale === locale)
               .map((blogPost, i) => {
                 return (
-                  <OrderNow key={i} name={`${blogPost.title}`} href={"/rent"} />
+                  <OrderNow key={i} name={`${blogPost.title}`} href={"/contact"} />
                 );
               })}
            
