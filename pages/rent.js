@@ -78,11 +78,13 @@ function Rent() {
             <ProCircleGold Gbottom="120" Gleft="-100" /> */}
             <Tabs>
               <TabList className={styles.Tab}>
-                <Tab className={styles.TabChild}>Stage special effects</Tab>
-                <Tab className={styles.TabChild}>LED screens</Tab>
-                <Tab className={styles.TabChild}>farm for stage</Tab>
-                <Tab className={styles.TabChild}>scenes</Tab>
-                <Tab className={styles.TabChild}>Lighting equipment</Tab>
+              {Products.productCategory
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <Tab className={styles.TabChild} key={i}>{blogPost.title}</Tab>
+                      );
+                    })}
               </TabList>
 
               <TabPanel>
@@ -175,6 +177,29 @@ function Rent() {
               <TabPanel>
                 <div className={styles.TabPanel}>
                   {Products.product5
+                    .filter((p) => p.locale === locale)
+                    .map((blogPost, i) => {
+                      return (
+                        <div
+                          className={styles.card}
+                          key={i}
+                          onClick={() => {
+                            onOpenModal()
+                            setOpenData(blogPost)
+                          }}
+                        >
+                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                          <h3>{blogPost.title}</h3>
+                        </div>
+                      );
+                    })}
+
+                </div>
+
+              </TabPanel>
+              <TabPanel>
+                <div className={styles.TabPanel}>
+                  {Products.product6
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (

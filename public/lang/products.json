@@ -1,7 +1,7 @@
 {
   "product1": [
     {
-      "id":1,
+      "id": 1,
       "locale": "en",
       "script": "Description",
       "scrPip": "Similar products",
@@ -10,7 +10,7 @@
       "image": "/prodPhoto/mythos.jpg"
     },
     {
-      "id":1,
+      "id": 1,
       "locale": "ru",
       "script": "Описание",
       "scrPip": "Похожие товары",
@@ -19,7 +19,7 @@
       "image": "/prodPhoto/mythos.jpg"
     },
     {
-      "id":1,
+      "id": 1,
       "locale": "uz",
       "script": "Tavsif",
       "scrPip": "O'xshash mahsulotlar",
@@ -146,32 +146,6 @@
       "title": "LEDWASH LEDXP600",
       "description": "O'ta yupqa ROBIN® 600 LEDWash 37x 10 vattli RGBW multichipli LEDlarga ega bo'lib, yumshoq pastellardan tortib to eng to'yinganlikgacha bo'lgan rangli chiqishga ega. 3 ta konsentrik halqalarda joylashgan ushbu LEDlar ajoyib rang va naqshli tomoshabinlarni ko'r qiluvchi effektlarni yaratish hamda har tomonlama va mukammal bir tekis yuvish qoplamasini ta'minlash uchun noyob imkoniyatlarni taklif etadi. Ushbu tizim LEDWash 600 ni boshqa LED yuvish yorug'lik mahsulotlaridan ustun qo'yadi va uni chinakam ko'p maqsadli qurilmaga aylantiradi, shuningdek, juda ko'p qirrali 15 - 60 darajali motorli kattalashtirish, kuchli tez strobing va oldindan dasturlashtirilgan pulsli strob effektlari bilan jihozlangan.",
       "image": "/prodPhoto/mythos.jpg"
-    }
-  ],
-  "product2": [
-    {
-      "locale": "en",
-      "script": "Description",
-      "scrPip": "Similar products",
-      "title": "PCS LED MATRIX LIGHT",
-      "description": "MATRIX 2530 High-end matrix headlights. The lights create a magical effect. It uses 25pcs 30W 3IN1 LED lamp beads, and each bulb or lamp color can be controlled individually. With three kinds of channel mode, easy to use but also professional programming, can display numbers, letters, patterns or pictures. Products can be controlled via DMX 512 control or dedicated computer software for large scale concerts, studios, tours, clubs, bars and more.",
-      "image": "/prodPhoto/PCSMATRIX.jpg"
-    },
-    {
-      "locale": "ru",
-      "script": "Описание",
-      "scrPip": "Похожие товары",
-      "title": "PCS LED MATRIX LIGHT",
-      "description": "MATRIX 2530 Матричные фары высокого класса. Огни создают волшебный эффект. Он использует 25шт 30 Вт 3IN1 светодиодных ламповых бусин, и каждый шарик или цвет лампы можно контролировать индивидуально.. С тремя видами режима канала, легко использовать, но и профессиональное программирование, может отображать числа, письма, узоры или изображения. Продукты могут контролироваться через DMX 512 управляющее или специализированное компьютерное программное обеспечение для масштабных концертов, студия, гастроли, клубы, бары и другие.",
-      "image": "/prodPhoto/PCSMATRIX.jpg"
-    },
-    {
-      "locale": "uz",
-      "script": "Tavsif",
-      "scrPip": "O'xshash mahsulotlar",
-      "title": "PCS LED MATRIX LIGHT",
-      "description": "MATRIX 2530 Yuqori toifadagi Matrix faralari. Ogni sozdayut volshebnyy ta'siri. On ispolzuet 25sht 30 Vt 3IN1 svetodiodnyx lampovyx busin, i kajdyy sharik ili tsvet lampy mojno kontrolirovat individno .. S tremya vidami rejima kanala, legko ispolzovat, no i professionalnoe programmirovanie, mojet otobra, ilma izma. Mahsulotlar mogut kontrolirovatsya cherez DMX 512 upravlyayushchee ili spetsializirovannoe kompyuternoe programmnoe obespechenie dlya masshtabnyx kontsertov, studiya, gastroli, kluby, bary i drugie.",
-      "image": "/prodPhoto/PCSMATRIX.jpg"
     },
     {
       "locale": "en",
@@ -196,30 +170,6 @@
       "title": "STORM 300 RGBW",
       "description": "Rangli LED yuvish INTELLA kompaniyasi Storm 300 ning innovatsion texnologiyasini joriy qildin RGBW va Storm 300 RGBW suv o'tkazmaydigan, IP44 va IP65 mos keladi tashqi foydalanish uchun. Juda kichik va mustahkam shassida keling faqat 8 kilogramm / 17 funt og'irlikda. RGBW ranglariga ega Storm 300-dagi 24 ta linzalar ajoyiblikni o'z ichiga oladi rangni kalibrlash funktsiyasi, bu keng rangni hosil qiladi va effektli kombinatsiyalar. Storm 400 RGB yengil, mustahkam, ixcham va ultra-juda kam quvvatga ega yuqori samarali LED strob faqat 5 Amper iste'moli.Storm 300 24 ta yuqori quvvatli 12 Vt RGBW 4 in1 LEDni o'z ichiga oladi va 10 000 lyumenli hayratlanarli yorug'lik chiqishi - har biriga 1250 lumen  kilogramm. Yilni dizayn oson va tez o'rnatishni ta'minlaydi.",
       "image": "/prodPhoto/STORM300.jpg"
-    },
-    {
-      "locale": "en",
-      "script": "Description",
-      "scrPip": "Similar products",
-      "title": "FINE ART FINE 1537 PIXI",
-      "description": " Source of light: 37 svetodiyodov Osram 4 in 1 moschnostyu 15 W.Ugol lucha: 4 ° -60 ° Color: RGBW 4 v 1.Effect: dimming in all optical range, dimming accuracy 65536. Dimensions and weight: 480 mm x 367 mm x 606 mm, weight: 23.5 k",
-      "image": "/prodPhoto/FINE1537PIXI.jpg"
-    },
-    {
-      "locale": "ru",
-      "script": "Описание",
-      "scrPip": "Похожие товары",
-      "title": " FINE ART FINE 1537 PIXI",
-      "description": "Источник света : 37 светодиодов Osram 4 в 1 мощностью 15 Вт .Угол луча : 4°-60°Цвет: RGBW 4 в 1 Эффект : диммирование во всем оптическом диапазоне, точность диммирования 65536 . Размеры и вес : 480 мм x 367 мм x 606 мм, вес нетто: 23,5 кг",
-      "image": "/prodPhoto/FINE1537PIXI.jpg"
-    },
-    {
-      "locale": "uz",
-      "script": "Tavsif",
-      "scrPip": "O'xshash mahsulotlar",
-      "title": " FINE ART FINE 1537 PIXI",
-      "description": "Nur manbai: 37 svetodiyodov Osram 4 da 1 moschnostyu 15 Vt. Ugol lucha: 4 ° -60 °Rang: RGBW 4 v 1.Effekt: barcha optik diapazonda karartma, karartma aniqligi 65536. O'lchamlari va vazni: 480 mm x 367 mm x 606 mm, og'irligi: 23,5 kg",
-      "image": "/prodPhoto/FINE1537PIXI.jpg"
     },
     {
       "locale": "en",
@@ -268,6 +218,56 @@
       "title": "FINE ART FINE 1400 PERF light",
       "description": "FINE 1400CF WASH-PERF - yuqori versiyali ramka tizimi, yuqori yorqinligi yoki variant uchun yuqori CRI bilan yuviladigan harakatlanuvchi bosh chiroq. Magistr/qul reflektorining nemis dizayni va qoplama texnologiyasi yorug'lik samaradorligini 10% ga oshiradi, umumiy yorug'lik oqimi 40 000lm dan oshadi. Mahsulot OSRAM 1400W yuqori CRI chiroqdan foydalanadi. Optik tizimning material tanlash va qoplama dizaynini optimallashtirish orqali CRI juda yaxshi, Ra>95. Panorama va egilish teginmaydigan magnit enkoder joylashuvidan foydalanadi. Ruxsat 2 dan 10 darajagacha, ya'ni 0,35 ° aniqlik bilan 1024 pozitsiyani aniqlay oladi. An'anaviy ikkita optokupl joylashuvi bilan solishtirganda, joylashishni aniqlash aniqligi 5 baravardan ko'proq yaxshilanadi. Kodlovchi yorug'lik holati parametrlarini avtomatik ravishda eslab qoladi va har bir qayta o'rnatishdan keyin avtomatik ravishda oldingi holatga qaytadi. Shuni ta'kidlash kerakki, FINE 1400CF WASH-PERF optik linzalar guruhi orqali fokuslash va kattalashtirishga erishadi. Qorong'i nuqta, nuqta orqaga tortilganda Fresnel yuvish nuri sifatida ko'rinmaydi. O'rnatilgan ramka tizimi nuqta shaklini nazorat qilishi va yovvoyi yorug'lik muammosini hal qilishi mumkin. Mahsulot yuqori aniqlikdagi telestudiya, teatr, keng ko'lamli kontsert, ochilish va yopilish marosimlari va boshqa yuqori darajadagi joylar uchun javob beradi.",
       "image": "/prodPhoto/1400PERFlight.jpg"
+    }
+  ],
+  "product2": [
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "PCS LED MATRIX LIGHT",
+      "description": "MATRIX 2530 High-end matrix headlights. The lights create a magical effect. It uses 25pcs 30W 3IN1 LED lamp beads, and each bulb or lamp color can be controlled individually. With three kinds of channel mode, easy to use but also professional programming, can display numbers, letters, patterns or pictures. Products can be controlled via DMX 512 control or dedicated computer software for large scale concerts, studios, tours, clubs, bars and more.",
+      "image": "/prodPhoto/PCSMATRIX.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "PCS LED MATRIX LIGHT",
+      "description": "MATRIX 2530 Матричные фары высокого класса. Огни создают волшебный эффект. Он использует 25шт 30 Вт 3IN1 светодиодных ламповых бусин, и каждый шарик или цвет лампы можно контролировать индивидуально.. С тремя видами режима канала, легко использовать, но и профессиональное программирование, может отображать числа, письма, узоры или изображения. Продукты могут контролироваться через DMX 512 управляющее или специализированное компьютерное программное обеспечение для масштабных концертов, студия, гастроли, клубы, бары и другие.",
+      "image": "/prodPhoto/PCSMATRIX.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "PCS LED MATRIX LIGHT",
+      "description": "MATRIX 2530 Yuqori toifadagi Matrix faralari. Ogni sozdayut volshebnyy ta'siri. On ispolzuet 25sht 30 Vt 3IN1 svetodiodnyx lampovyx busin, i kajdyy sharik ili tsvet lampy mojno kontrolirovat individno .. S tremya vidami rejima kanala, legko ispolzovat, no i professionalnoe programmirovanie, mojet otobra, ilma izma. Mahsulotlar mogut kontrolirovatsya cherez DMX 512 upravlyayushchee ili spetsializirovannoe kompyuternoe programmnoe obespechenie dlya masshtabnyx kontsertov, studiya, gastroli, kluby, bary i drugie.",
+      "image": "/prodPhoto/PCSMATRIX.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "FINE ART FINE 1537 PIXI",
+      "description": " Source of light: 37 svetodiyodov Osram 4 in 1 moschnostyu 15 W.Ugol lucha: 4 ° -60 ° Color: RGBW 4 v 1.Effect: dimming in all optical range, dimming accuracy 65536. Dimensions and weight: 480 mm x 367 mm x 606 mm, weight: 23.5 k",
+      "image": "/prodPhoto/FINE1537PIXI.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": " FINE ART FINE 1537 PIXI",
+      "description": "Источник света : 37 светодиодов Osram 4 в 1 мощностью 15 Вт .Угол луча : 4°-60°Цвет: RGBW 4 в 1 Эффект : диммирование во всем оптическом диапазоне, точность диммирования 65536 . Размеры и вес : 480 мм x 367 мм x 606 мм, вес нетто: 23,5 кг",
+      "image": "/prodPhoto/FINE1537PIXI.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": " FINE ART FINE 1537 PIXI",
+      "description": "Nur manbai: 37 svetodiyodov Osram 4 da 1 moschnostyu 15 Vt. Ugol lucha: 4 ° -60 °Rang: RGBW 4 v 1.Effekt: barcha optik diapazonda karartma, karartma aniqligi 65536. O'lchamlari va vazni: 480 mm x 367 mm x 606 mm, og'irligi: 23,5 kg",
+      "image": "/prodPhoto/FINE1537PIXI.jpg"
     },
     {
       "locale": "en",
@@ -292,33 +292,34 @@
       "title": "LEDPAR T1805N",
       "description": " YORQIN RANG FAZA YORG'I: Sahnani 12 ta LED boncuk, jumladan 3 ta qizil, 3 ko'k, 3 yashil va 3 oq rang bilan yoritib, bir nechta yorug'lik ranglarini ishlatish va chiroyli yorug'lik effektlarini yaratish imkonini beradi. Foydalanishning soddaligi va qulayligi: qo'shimcha nazorat usullari: ovozni faollashtirish; DMX va Master/Slave. Yoqish/o'chirish, rejimlarni almashtirish, masofadan boshqarish pulti yordamida ranglarni o'zgartirish YOKI yorug'lik orqasidagi tugmachani bosing. Moslashuvchan yorug'lik burchagi: shunchaki moslashuvchan braketni o'rnating, keyin yorug'lik stolga sozlanishi yoki shiftga osib qo'yilishi mumkin; Bundan tashqari, eng ideal muhitni yaratish uchun yorug'lik burchaklari mos ravishda sozlanishi mumkin. Moslashuvchan yorug'lik burchagi: shunchaki moslashuvchan braketni o'rnating, keyin yorug'lik stolga sozlanishi yoki shiftga osib qo'yilishi mumkin; Bundan tashqari, eng ideal muhitni yaratish uchun yorug'lik burchaklari mos ravishda sozlanishi mumkin.",
       "image": "/prodPhoto/LEDPART1805N.jpg"
-    }
-  ],
-  "product3": [
+    },
     {
       "locale": "en",
       "script": "Description",
       "scrPip": "Similar products",
-      "title": "ATOMIC 3000",
-      "description": "AC power (MAX-7 model): 100-120 V nominal, 50/60 Hz AC power (MAX-15 model): 200-240 V nominal, 50/60 Hz Power supply: electronic mode switching with automatic switching Typical current consumption (MAX-15, high power mode): 8 A Peak current consumption: 33 A Main fuse (all AC voltages): 20 AT (slow-blow), 250 V AC Power Cord: 14 AWG or 2.5mm PHYSICAL Length: 425 mm (16.7 inches) without bracket Width: 245mm (9.6) without bracket Height: 240 mm (9.4 inches) without bracket Weight: 7.5 kg (16.5 lb) without bracket",
-      "image": "/prodPhoto/ATOMIC3000.jpg"
+      "title": "PUSHKA",
+      "description": " PUSHKA color system 2 wheels, more than 20 colors, color correction filters 3200K, 5600K, 6000K effects dimmer 0-100%, rainbow, strobe. Beam Angle 10° Control 4 channels DMX-512, built-in remote control Lamp OSRAM HMI-1200 (PHILIPS MSI-1200) Dimensions Projector 1053×456×322 mm Controller 490×386×93 mmThe weight 35 kg ",
+      "image": "/prodPhoto/PUSHKA.jpg"
     },
     {
       "locale": "ru",
       "script": "Описание",
       "scrPip": "Похожие товары",
-      "title": "ATOMIC 3000",
-      "description": "Atomic 3000 DMX — мощный и прочный импульсный стробоскоп мощностью 3000 Вт. Питание переменного тока (модель MAX-7): 100–120 В номинально, 50/60 Гц Питание переменного тока (модель MAX-15): 200–240 В номинально, 50/60 Гц Блок питания: электронное переключение режимов с автоматическим переключением Типичное потребление тока (MAX-15, режим повышенной мощности): 8 А Пиковое потребление тока: 33 А Главный предохранитель (все напряжения переменного тока): 20 AT (инерционный), 250 В Кабель питания переменного тока: 14 AWG или 2,5 мм ФИЗИЧЕСКИЙ Длина: 425 мм (16,7 дюйма) без кронштейна Ширина: 245 мм (9,6 дюйма) без кронштейна Высота: 240 мм (9,4 дюйма) без кронштейна Вес: 7,5 кг (16,5 фунтов) без кронштейна",
-      "image": "/prodPhoto/ATOMIC3000.jpg"
+      "title": "PUSHKA",
+      "description": "PUSHKA истема цвета  2 колеса, более 20 цветов, фильтры цветокоррекции 3200 K, 5600 K, 6000 K Эффекты диммер 0—100%, радуга, строб. Угол раскрытия луча 10° Управление 4 канала DMX-512, встроенный пульт управления Лампа OSRAM HMI-1200 (PHILIPS MSI-1200) Габариты Прожектор 1053×456×322 мм Контроллер 490×386×93 мм Вес 35 кг",
+      "image": "/prodPhoto/PUSHKA.jpg"
     },
     {
       "locale": "uz",
       "script": "Tavsif",
       "scrPip": "O'xshash mahsulotlar",
-      "title": "ATOMIC 3000",
-      "description": "Atomic 3000 DMX kuchli va bardoshli 3000 Vt flesh-strobdir. AC quvvati (MAX-7 modeli): 100-120 V nominal, 50/60 Gts AC quvvati (MAX-15 modeli): 200-240 V nominal, 50/60 Gts Elektr ta'minoti: avtomatik almashtirish bilan elektron rejimni almashtirish Oddiy oqim iste'moli (MAX-15, yuqori quvvat rejimi): 8 A Maksimal oqim iste'moli: 33 A Asosiy sug'urta (barcha AC kuchlanishlari): 20 AT (sekin urish), 250 V AC quvvat kabeli: 14 AWG yoki 2,5 mm2.Jismoniy Uzunlik: 425 mm (16,7 dyuym) qavssiz Kengligi: 245 mm (9,6 dyuym) qavssiz Balandligi: 240 mm (9,4 dyuym) qavssiz Og'irligi: qavssiz 7,5 kg (16,5 lb).",
-      "image": "/prodPhoto/ATOMIC3000.jpg"
-    },
+      "title": "PUSHKA",
+      "description": "PUSHKA rang tizimi 2 g'ildirak, 20 dan ortiq rang, rangni to'g'rilash filtrlari 3200K, 5600K, 6000K effektlar dimmer 0-100%, kamalak, strob. Nur burchagi 10° Boshqaruv 4 kanalli DMX-512, o'rnatilgan masofadan boshqarish pulti Chiroq OSRAM HMI-1200 (PHILIPS MSI-1200) O'lchamlari Proyektor 1053×456×322 mm Tekshirish moslamasi 490 × 386 × 93 mm Og'irligi 35 kg",
+      "image": "/prodPhoto/PUSHKA.jpg"
+    }
+  ],
+  "product3": [
+   
     {
       "locale": "en",
       "script": "Description",
@@ -347,26 +348,225 @@
       "locale": "en",
       "script": "Description",
       "scrPip": "Similar products",
-      "title": "PUSHKA",
-      "description": " PUSHKA color system 2 wheels, more than 20 colors, color correction filters 3200K, 5600K, 6000K effects dimmer 0-100%, rainbow, strobe. Beam Angle 10° Control 4 channels DMX-512, built-in remote control Lamp OSRAM HMI-1200 (PHILIPS MSI-1200) Dimensions Projector 1053×456×322 mm Controller 490×386×93 mmThe weight 35 kg ",
-      "image": "/prodPhoto/PUSHKA.jpg"
+      "title": "DIALighting LED Washer 42 4-in-1 LEDs",
+      "description": "A powerful spotlight equipped with 42 LEDs capable of reproducing any color from the spectrum. Works both in manual and automatic mode. The device is absolutely silent, resistant to all weather conditions and has low energy consumption. Ideal for outdoor concerts and large events in large halls",
+      "image": "/prodPhoto/DialLighting.jpg"
     },
     {
       "locale": "ru",
       "script": "Описание",
       "scrPip": "Похожие товары",
-      "title": "PUSHKA",
-      "description": "PUSHKA истема цвета  2 колеса, более 20 цветов, фильтры цветокоррекции 3200 K, 5600 K, 6000 K Эффекты диммер 0—100%, радуга, строб. Угол раскрытия луча 10° Управление 4 канала DMX-512, встроенный пульт управления Лампа OSRAM HMI-1200 (PHILIPS MSI-1200) Габариты Прожектор 1053×456×322 мм Контроллер 490×386×93 мм Вес 35 кг",
-      "image": "/prodPhoto/PUSHKA.jpg"
+      "title": "DIALighting LED Washer 42 4-in-1 LEDs",
+      "description": "Мощный прожектор, оснащенный 42-мя светодиодами, способными воспроизвести любой цвет из спектра. Работает как в ручном, так и в автоматическом режиме. Прибор абсолютно бесшумен, устойчив к любым погодным условиям и отличается низкими энергозатратами. Идеален для концертов на открытом воздухе и крупных мероприятий в больших залах",
+      "image": "/prodPhoto/DialLighting.jpg"
     },
     {
       "locale": "uz",
       "script": "Tavsif",
       "scrPip": "O'xshash mahsulotlar",
-      "title": "PUSHKA",
-      "description": "PUSHKA rang tizimi 2 g'ildirak, 20 dan ortiq rang, rangni to'g'rilash filtrlari 3200K, 5600K, 6000K effektlar dimmer 0-100%, kamalak, strob. Nur burchagi 10° Boshqaruv 4 kanalli DMX-512, o'rnatilgan masofadan boshqarish pulti Chiroq OSRAM HMI-1200 (PHILIPS MSI-1200) O'lchamlari Proyektor 1053×456×322 mm Tekshirish moslamasi 490 × 386 × 93 mm Og'irligi 35 kg",
-      "image": "/prodPhoto/PUSHKA.jpg"
+      "title": "DIALighting LED Washer 42 4-in-1 LEDs",
+      "description": "Spektrdagi har qanday rangni qayta ishlab chiqarishga qodir 42 ta LED bilan jihozlangan kuchli spotlight. Ham qo'lda, ham avtomatik rejimda ishlaydi. Qurilma mutlaqo jim, har qanday ob-havo sharoitlariga chidamli va kam energiya sarfiga ega. Ochiq kontsertlar va katta zallarda katta tadbirlar uchun ideal",
+      "image": "/prodPhoto/DialLighting.jpg"
     },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "Griven Kolorado 2500",
+      "description": "Intelligent flood light for architectural lighting. Equipped with built-in CMY color mixing system. Powerful luminous flux ensures even filling of large surfaces even in places with strong stray illumination. Removable ballast can be located at a distance of up to 20 m from the device itself: this greatly simplifies the installation process in hard-to-reach places. The device can work in automatic mode according to one of the built-in programs or be controlled by a DMX512 signal.",
+      "image": "/prodPhoto/gricen2500.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "Griven Kolorado 2500",
+      "description": "Интеллектуальный прожектор заливающего света для архитектурного освещения. Оснащен встроенной системой цветосмешения CMY. Мощный световой поток обеспечивает ровную заливку больших поверхностей даже в местах с сильной паразитной засветкой. Съемный балласт может находиться на расстоянии до 20 м от самого устройства: это существенно упрощает процесс инсталляции в труднодоступных местах. Прибор может работать в автоматическом режиме по одной из встроенных программ или управляться сигналом DMX512.",
+      "image": "/prodPhoto/gricen2500.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "Griven Kolorado 2500",
+      "description": "Intelligent flood light for architectural lighting. Equipped with built-in CMY color mixing system. Powerful luminous flux ensures even filling of large surfaces even in places with strong stray illumination. Removable ballast can be located at a distance of up to 20 m from the device itself: this greatly simplifies the installation process in hard-to-reach places. The device can work in automatic mode according to one of the built-in programs or be controlled by a DMX512 signal.",
+      "image": "/prodPhoto/gricen2500.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "",
+      "description": "Floodlight for architectural lighting with mechanized color change. Unlimited colors, compact size and IP44 rating have made the fixture one of the leaders in the architectural lighting market. Thanks to absolutely silent operation, the device can be used not only outdoors, but also indoors: theaters, television studios, etc. The CMY color mixing system and wide beam angle ensure smooth color changes and uniform fills on fairly large surfaces. The standard bracket allows you to install the device in almost any position.",
+      "image": "/prodPhoto/griven575.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "",
+      "description": "Прожектор для архитектурной подсветки с механизированной сменой цвета. Неограниченное количество цветов, компактный размер и степень защиты по стандарту IP44 сделали прибор одним из лидеров на рынке архитектурного освещения. Благодаря абсолютно бесшумной работе устройство может использоваться не только на улице, но и в помещениях: театрах, телестудиях и т.д. Система цветосмешения CMY и широкий угол раскрытия луча обеспечивают возможность плавной смены цвета и однородную заливку достаточно больших поверхностей. Стандартный кронштейн позволяет установить прибор практически в любом положении.",
+      "image": "/prodPhoto/griven575.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "",
+      "description": "Mexaniklashtirilgan rang o'zgarishi bilan me'moriy yoritish uchun projektör. Cheksiz ranglar, ixcham o'lcham va IP44 reytingi uni me'moriy yoritish bozorida etakchilardan biriga aylantirdi. Mutlaqo jim ish tufayli qurilma nafaqat ochiq havoda, balki bino ichida ham qo'llanilishi mumkin: teatrlar, telestudiyalar va boshqalar. CMY ranglarni aralashtirish tizimi va keng nur burchagi silliq rang o'zgarishini va juda katta sirtlarda bir xil to'ldirishni ta'minlaydi. Standart qavs qurilmani deyarli har qanday holatda o'rnatish imkonini beradi.",
+      "image": "/prodPhoto/griven575.jpg"
+    }
+ 
+  ],
+  "product4": [
+  
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "ATOMIC 3000",
+      "description": "AC power (MAX-7 model): 100-120 V nominal, 50/60 Hz AC power (MAX-15 model): 200-240 V nominal, 50/60 Hz Power supply: electronic mode switching with automatic switching Typical current consumption (MAX-15, high power mode): 8 A Peak current consumption: 33 A Main fuse (all AC voltages): 20 AT (slow-blow), 250 V AC Power Cord: 14 AWG or 2.5mm PHYSICAL Length: 425 mm (16.7 inches) without bracket Width: 245mm (9.6) without bracket Height: 240 mm (9.4 inches) without bracket Weight: 7.5 kg (16.5 lb) without bracket",
+      "image": "/prodPhoto/ATOMIC3000.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "ATOMIC 3000",
+      "description": "Atomic 3000 DMX — мощный и прочный импульсный стробоскоп мощностью 3000 Вт. Питание переменного тока (модель MAX-7): 100–120 В номинально, 50/60 Гц Питание переменного тока (модель MAX-15): 200–240 В номинально, 50/60 Гц Блок питания: электронное переключение режимов с автоматическим переключением Типичное потребление тока (MAX-15, режим повышенной мощности): 8 А Пиковое потребление тока: 33 А Главный предохранитель (все напряжения переменного тока): 20 AT (инерционный), 250 В Кабель питания переменного тока: 14 AWG или 2,5 мм ФИЗИЧЕСКИЙ Длина: 425 мм (16,7 дюйма) без кронштейна Ширина: 245 мм (9,6 дюйма) без кронштейна Высота: 240 мм (9,4 дюйма) без кронштейна Вес: 7,5 кг (16,5 фунтов) без кронштейна",
+      "image": "/prodPhoto/ATOMIC3000.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "ATOMIC 3000",
+      "description": "Atomic 3000 DMX kuchli va bardoshli 3000 Vt flesh-strobdir. AC quvvati (MAX-7 modeli): 100-120 V nominal, 50/60 Gts AC quvvati (MAX-15 modeli): 200-240 V nominal, 50/60 Gts Elektr ta'minoti: avtomatik almashtirish bilan elektron rejimni almashtirish Oddiy oqim iste'moli (MAX-15, yuqori quvvat rejimi): 8 A Maksimal oqim iste'moli: 33 A Asosiy sug'urta (barcha AC kuchlanishlari): 20 AT (sekin urish), 250 V AC quvvat kabeli: 14 AWG yoki 2,5 mm2.Jismoniy Uzunlik: 425 mm (16,7 dyuym) qavssiz Kengligi: 245 mm (9,6 dyuym) qavssiz Balandligi: 240 mm (9,4 dyuym) qavssiz Og'irligi: qavssiz 7,5 kg (16,5 lb).",
+      "image": "/prodPhoto/ATOMIC3000.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "Martin Atomic 3000 DMX",
+      "description": "Compact smart strobe powered by a 3000W lamp. The device differs in exclusive quality, reliability and simplicity in operation. Ideal for use in clubs, discos and concerts. The device provides for setting the duration of the light flash to create a variety of effects, adjusting the flicker frequency from 20 ms to 2 s, as well as varying the intensity.",
+      "image": "/prodPhoto/atamik.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "Martin Atomic 3000 DMX",
+      "description": "Компактный интеллектуальный стробоскоп, работающий на лампе мощностью 3000 Вт. Прибор отличается исключительным качеством, надежностью и простотой в эксплуатации. Идеален для использования в клубах, на дискотеках и концертах. Устройство предусматривает настройку продолжительности световой вспышки для создания разнообразных эффектов, регулировку частоты мерцания от 20 мс до 2 с, а также варьирование интенсивности.",
+      "image": "/prodPhoto/atamik.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "Martin Atomic 3000 DMX",
+      "description": "3000 Vt chiroq bilan ishlaydigan ixcham aqlli strob. Qurilma eksklyuziv sifat, ishonchlilik va ishlashning soddaligi bilan ajralib turadi. Klublar, diskotekalar va konsertlarda foydalanish uchun ideal. Qurilma turli effektlarni yaratish uchun yorug'lik chirog'ining davomiyligini belgilashni, miltillash chastotasini 20 ms dan 2 s gacha sozlashni, shuningdek intensivlikni o'zgartirishni ta'minlaydi.",
+      "image": "/prodPhoto/atamik.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "INVOLIGHT LED BAR395",
+      "description": "All-weather outdoor RGB flood light for architectural lighting.",
+      "image": "/prodPhoto/bar395.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "INVOLIGHT LED BAR395",
+      "description": "Всепогодный уличный RGB-светильник заливного света для архитектурной подсветки.",
+      "image": "/prodPhoto/bar395.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "INVOLIGHT LED BAR395",
+      "description": "Arxitektura yoritgichi uchun har qanday ob-havoga mo'ljallangan tashqi RGB yorug'lik nuri.",
+      "image": "/prodPhoto/bar395.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": " LED Multi Par 4-in-1",
+      "description": "Compact and powerful spotlight with 14 high quality LEDs, quickly and smoothly recreating any desired shade. The device is equipped with pre-installed automatic programs and a sound activation function. The degree of protection IP65 allows you to use the device in a variety of atmospheric conditions: cold and hot, rain and wind, open-air and indoors. The rugged aluminum housing is equipped with a lyre for installation, which allows you to place the device in any position and place on the stage.",
+      "image": "/prodPhoto/IP65.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": " LED Multi Par 4-in-1",
+      "description": "Компактный и мощный прожектор с 14 качественными светодиодами, быстро и плавно воссоздающими любой требуемый оттенок. Устройство оснащено предустановленными автоматическими программами и функцией звуковой активации. Степень защиты IP65 позволяет использовать прибор в самых разных атмосферных условиях: в холод и в жару, во время дождя и ветра, на опен-эйре и в помещении. Прочный алюминиевый корпус снабжен лирой для установки, позволяющей разместить устройство в любом положении и месте сцены.",
+      "image": "/prodPhoto/IP65.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": " LED Multi Par 4-in-1",
+      "description": "14 ta yuqori sifatli svetodiodli ixcham va kuchli yorug'lik yorug'ligi, istalgan soyani tez va muammosiz tiklaydi. Qurilma oldindan o'rnatilgan avtomatik dasturlar va ovozni faollashtirish funktsiyasi bilan jihozlangan. Himoya darajasi IP65 qurilmadan turli xil atmosfera sharoitlarida foydalanish imkonini beradi: sovuq va issiq, yomg'ir va shamol, ochiq havoda va bino ichida. Qattiq alyuminiy korpus o'rnatish uchun lira bilan jihozlangan bo'lib, u qurilmani istalgan holatda joylashtirish va sahnaga joylashtirish imkonini beradi.",
+      "image": "/prodPhoto/IP65.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "MARTIN PRO Magnum 2000",
+      "description": "The prestige among portable light smoke generators. The modern model of the heater allows the device to produce powerful smoke streams already 8 minutes after turning on the power. The 9.5 l canister guarantees operation without refueling for a long time.",
+      "image": "/prodPhoto/magnum2000.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "MARTIN PRO Magnum 2000",
+      "description": "Авторитет среди портативных генераторов легкого дыма. Современная модель нагревателя позволяет устройству выдавать мощные дымовые потоки уже через 8 минут после включения питания. Канистра объемом 9,5 л гарантирует работу без дозаправки в течение длительного времени.",
+      "image": "/prodPhoto/magnum2000.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "MARTIN PRO Magnum 2000",
+      "description": "Portativ engil tutun generatorlari orasida obro'. Isitgichning zamonaviy modeli qurilmaga quvvat yoqilgandan keyin 8 minut o'tgach kuchli tutun oqimlarini ishlab chiqarish imkonini beradi. 9,5 litrli kanistr uzoq vaqt davomida yoqilg'i quymasdan ishlashni kafolatlaydi.",
+      "image": "/prodPhoto/magnum2000.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "Smoke Factory Tour-Hazer II",
+      "description": "1600W professional mist generator. Features a compact size and low fluid consumption. It is possible to control smoke density and fan speed via DMX.",
+      "image": "/prodPhoto/smoke.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "Smoke Factory Tour-Hazer II",
+      "description": "Профессиональный генератор тумана мощностью 1600 Вт. Отличается компактным размером и низким расходом жидкости. Предусмотрена возможность управления плотностью дыма и скоростью вентилятора по DMX.",
+      "image": "/prodPhoto/smoke.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": " Smoke Factory Tour-Hazer II",
+      "description": "1600 Vt professional tuman generatori. Yilni o'lchami va kam suyuqlik iste'moli bilan ajralib turadi. DMX orqali tutun zichligi va fan tezligini nazorat qilish mumkin.",
+      "image": "/prodPhoto/smoke.jpg"
+    }
+  ],
+  "product5": [
+    
     {
       "locale": "en",
       "script": "Description",
@@ -511,32 +711,55 @@
       "description": "MA onPC buyruq qanoti o'ta moslashuvchan va kuchli grandMA2 boshqaruv tizimidan mobil foydalanish uchun yo'l ochadi. Bepul grandMA2 onPC dasturiy ta'minoti bilan birgalikda MA onPC buyruq qanoti deyarli hamma joyda ishlatilishi mumkin bo'lgan portativ 2048 parametrlarni boshqarish yechimidir - barchasi hamyonbop narxda! U ikkita o'rnatilgan DMX portini, shuningdek, grandMA2 dan shaxsiy kompyuterga Ethernet protokollari orqali ikkita qo'shimcha DMX koinotlarini yuborish imkoniyatini taklif qiladi. GrandMA2 onPC dasturiy ta'minoti uchun ideal apparat kengaytmasi sifatida ishlab chiqilgan MA onPC buyruq qanoti dasturiy ta'minot ko'rinishini va hissiyotini haqiqiy grandMA2 konsoliga imkon qadar yaqinlashtiradi. GrandMA2 konsollarining buyruq qismini o'z ichiga olgan MA onPC Command Wing bilan grandMA2 onPC dasturidan foydalanish hech qachon oson bo'lmagan. MA onPC buyruq qanoti va grandMA2 onPC dasturiy ta'minotida ishlaydigan kompyuter o'rtasidagi oddiy USB ulanishi bilan grandMA2 konsolining barcha kirish va chiqishlari foydalanuvchi uchun mavjud. DMX, Midi, Timecode va Analogue Remote to'g'ridan-to'g'ri MA onPC buyruqlar qanotida sizning qo'lingizda. O'ylangan tafsilot sifatida Kensington qulf uyasi o'rnatilgan",
       "image": "/prodPhoto/Grandma2.jpg"
     }
-    
   ],
-  "product4":[
+  "product6": [
     {
       "locale": "en",
       "script": "Description",
       "scrPip": "Similar products",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Cable protection",
+      "description": "Protective cable channels are necessary to protect cables from mechanical damage when heavy equipment passes through. Cable protection with 3 channels (Defender Mini) withstands loads up to 2 tons and is recommended for indoor use. Cable protection with 5 channels (Defender Midi) can withstand up to 5 tons and is mainly used in open areas.",
+      "image": "/prodPhoto/zashitakable.jpg"
     },
     {
       "locale": "ru",
       "script": "Описание",
       "scrPip": "Похожие товары",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Защита кабелей",
+      "description": "Защитные кабель-каналы необходимы для предохранения кабелей от механического повреждения при проезде тяжелой техники. Кабельная защита с 3-мя каналами (Defender Mini) выдерживает нагрузку до 2-х тонн и рекомендуется для использования в закрытых помещениях. Кабельная защита с 5-ю каналами (Defender Midi) выдерживает до 5 тонн и в основном используется на открытых площадках.",
+      "image": "/prodPhoto/zashitakable.jpg"
     },
     {
       "locale": "uz",
       "script": "Tavsif",
       "scrPip": "O'xshash mahsulotlar",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Kabel himoyasi",
+      "description": "Himoya kabel kanallari og'ir uskunalar o'tganda kabellarni mexanik shikastlanishdan himoya qilish uchun zarur. 3 ta kanalli kabel himoyasi (Defender Mini) 2 tonnagacha yuklarga bardosh beradi va bino ichida foydalanish uchun tavsiya etiladi. 5 ta kanalli kabel himoyasi (Defender Midi) 5 tonnagacha bardosh bera oladi va asosan ochiq joylarda qo'llaniladi.",
+      "image": "/prodPhoto/zashitakable.jpg"
+    },
+    {
+      "locale": "en",
+      "script": "Description",
+      "scrPip": "Similar products",
+      "title": "ТЕЛЕСКОПИЧЕСКИЙ ПОДЪЕМНИК FENIX ELV-230/5",
+      "description": "Pod'emnыe stoyki Fenix serii ELV oborudovany spetsialnoy sistemoy vыnosnyx opor, kotoraya bezopasno rabotaet na lyuboy poverxnosti blagodarya vozmojnosti ustanovki v lyubom polojenii.",
+      "image": "/prodPhoto/poshika.jpg"
+    },
+    {
+      "locale": "ru",
+      "script": "Описание",
+      "scrPip": "Похожие товары",
+      "title": "ТЕЛЕСКОПИЧЕСКИЙ ПОДЪЕМНИК FENIX ELV-230/5",
+      "description": "Подъемные стойки Fenix серии ELV оборудованы специальной системой выносных опор, которая безопасно работает на любой поверхности благодаря возможности установки в любом положении.",
+      "image": "/prodPhoto/poshika.jpg"
+    },
+    {
+      "locale": "uz",
+      "script": "Tavsif",
+      "scrPip": "O'xshash mahsulotlar",
+      "title": "ТЕЛЕСКОПИЧЕСКИЙ ПОДЪЕМНИК FENIX ELV-230/5",
+      "description": "Fenix ​​ELV lift stendlari har qanday holatda o'rnatish qobiliyati tufayli har qanday sirtda xavfsiz ishlaydigan maxsus ustun tizimi bilan jihozlangan.",
+      "image": "/prodPhoto/poshika.jpg"
     },
     {
       "locale": "en",
@@ -563,30 +786,78 @@
       "image": "/prodPhoto/mythos.jpg"
     }
   ],
-  "product5":[
+  "productCategory": [
     {
       "locale": "en",
-      "script": "Description",
-      "scrPip": "Similar products",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Dynamic Instruments"
     },
     {
       "locale": "ru",
-      "script": "Описание",
-      "scrPip": "Похожие товары",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Динамические приборы"
     },
     {
       "locale": "uz",
-      "script": "Tavsif",
-      "scrPip": "O'xshash mahsulotlar",
-      "title": "",
-      "description": "",
-      "image": "/prodPhoto/mythos.jpg"
+      "title": "Dinamik asboblar"
+    },
+    {
+      "locale": "en",
+      "title": "Staticheskie pribory"
+    },
+    {
+      "locale": "ru",
+      "title": "Статические приборы"
+    },
+    {
+      "locale": "uz",
+      "title": "Statik qurilmalar"
+    },
+    {
+      "locale": "en",
+      "title": "Architectural lighting"
+    },
+    {
+      "locale": "ru",
+      "title": "Архитектурное освещение"
+    },
+    {
+      "locale": "uz",
+      "title": "Me'moriy yoritish"
+    },
+    {
+      "locale": "en",
+      "title": "LED and lighting effects"
+    },
+    {
+      "locale": "ru",
+      "title": "LED и световые эффекты"
+    },
+    {
+      "locale": "uz",
+      "title": "LED va yorug'lik effektlari"
+    },
+    {
+      "locale": "en",
+      "title": "Light consoles"
+    },
+    {
+      "locale": "ru",
+      "title": "Световые пульты"
+    },
+    {
+      "locale": "uz",
+      "title": "Yengil konsollar"
+    },
+    {
+      "locale": "en",
+      "title": "Optional equipment"
+    },
+    {
+      "locale": "ru",
+      "title": "Дополнительное оборудование"
+    },
+    {
+      "locale": "uz",
+      "title": "Opsiyonel uskunalar"
     }
   ]
 }
