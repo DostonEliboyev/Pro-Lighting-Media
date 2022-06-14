@@ -71,11 +71,13 @@ export default function Home() {
                   </p>
                   <p className={styles.topRightTitle}>{blogPost.h4}</p> */}
 
-                  <div className={styles.leftBottomImg}>
-                    <Image src={diskotik2} alt="" />
-                  </div>
-                  <div className={styles.topRightImg}>
-                    <Image src={diskotik} alt="" />
+                  <div className={styles.outTeam__container}>
+                    <div className={styles.leftBottomImg}>
+                      <Image src={diskotik2} alt="" />
+                    </div>
+                    <div className={styles.topRightImg}>
+                      <Image src={diskotik} alt="" />
+                    </div>
                   </div>
                 </div>
               )

@@ -244,16 +244,23 @@
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
   margin-top: 10px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
 }
 
 /* The navigation links inside the overlay */
-.overlay a {
+.overlay__content span {
   padding: 8px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
+  background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -267,6 +274,7 @@
   top: 0;
   right: 15px;
   font-size: 40px;
+  color: gold;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
