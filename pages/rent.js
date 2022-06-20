@@ -13,6 +13,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Products from "../public/lang/products.json";
 import onehero from "../public/lang/onehero.json";
+import Link from 'next/link'
 function Rent() {
   const [open, setOpen] = useState(false);
   const [openData, setOpenData] = useState(null);
@@ -213,6 +214,7 @@ function Rent() {
                         >
                           <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
                           <h3>{blogPost.title}</h3>
+
                         </div>
                       );
                     })}
@@ -242,7 +244,7 @@ function Rent() {
                     height: "6%",
                   }}
                 >
-                  <h1 style={{ fontSize: "22px" }}>{openData?.title}</h1>
+                  <h1 style={{ fontSize: "22px",textTransform: "uppercase"}}>{openData?.title}</h1>
                 </div>
                 <div
                   style={{

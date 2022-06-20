@@ -29,7 +29,7 @@ function Header() {
             .map((blogPost, i) => {
               return (
                 <Link href={`${blogPost.link}`} key={i}>
-                  <a className={`${blogPost.link === asPath? styles.head__main__a:""}`}>{blogPost.title}</a>
+                  <a className={`${blogPost.link === asPath ? styles.head__main__a : ""}`}>{blogPost.title}</a>
                 </Link>
               );
             })}
@@ -80,7 +80,7 @@ function Header() {
                 .map((blogPost, i) => {
                   return (
                     <Link href={`${blogPost.link}`} key={i} >
-                      <span onClick={()=>closeNav()}>{blogPost.title}</span>
+                      <span onClick={() => closeNav()}>{blogPost.title}</span>
                     </Link>
                   );
                 })}
@@ -88,7 +88,9 @@ function Header() {
           </div>
         </div>
       </div>
+    
     </div>
+
   );
 }
 
