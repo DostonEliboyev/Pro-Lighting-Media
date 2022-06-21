@@ -5,6 +5,7 @@ import Header from "./Header";
 function Layout({ children }) {
   return (
     <div>
+      
       <Head>
         <meta
           name="viewport"

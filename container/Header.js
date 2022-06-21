@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +8,7 @@ import blogPosts from "../public/lang/head.json";
 
 function Header() {
   const [openDrop, setOpenDrop] = useState(false);
+  const [headerColor, setHeaderColor] = useState("#ffffff00")
   const { locale, locales, asPath } = useRouter();
 
   function openNav() {
@@ -17,10 +18,27 @@ function Header() {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
+ 
+  const listenScrollEvent = () => {
+      window.scrollY > 20
+        ? setHeaderColor("#00000073")
+        : setHeaderColor("#ffffff00")
+    }
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent)
+  })
+  const scrollSearch = () => {
+    window.scrollTo({
+      top:0,
+      behavior: "smooth"
+      });
+ 
+  };
+
   return (
-    <div className={styles.headerBig}>
+    <div className={styles.headerBig} style={{backgroundColor: headerColor}}>
       <div className={styles.header}>
-        <div className={styles.logo__white}>
+        <div className={styles.logo__white} onClick={scrollSearch}>
           <Image src={logo_white} alt="" />
         </div>
         <div className={styles.head__main}>
@@ -88,10 +106,12 @@ function Header() {
           </div>
         </div>
       </div>
-    
+
     </div>
 
   );
 }
 
 export default Header;
+
+

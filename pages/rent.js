@@ -79,13 +79,13 @@ function Rent() {
             <ProCircleGold Gbottom="120" Gleft="-100" /> */}
             <Tabs>
               <TabList className={styles.Tab}>
-              {Products.productCategory
-                    .filter((p) => p.locale === locale)
-                    .map((blogPost, i) => {
-                      return (
-                        <Tab className={styles.TabChild} key={i}>{blogPost.title}</Tab>
-                      );
-                    })}
+                {Products.productCategory
+                  .filter((p) => p.locale === locale)
+                  .map((blogPost, i) => {
+                    return (
+                      <Tab className={styles.TabChild} key={i}>{blogPost.title}</Tab>
+                    );
+                  })}
               </TabList>
 
               <TabPanel>
@@ -94,17 +94,16 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
-                          <h3>{blogPost.title}</h3>
-                        </div>
+                        <Link href={`/product/${blogPost.title}`}>
+                          <div
+                            className={styles.card}
+                            key={i}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                            <h3>{blogPost.title}</h3>
+
+                          </div>
+                        </Link>
                       );
                     })}
                 </div>
@@ -116,17 +115,17 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt="" />
-                          <h3>{blogPost.title}</h3>
-                        </div>
+                        <Link href={`/product/${blogPost.title}`}>
+
+                          <div
+                            className={styles.card}
+                            key={i}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt="" />
+                            <h3>{blogPost.title}</h3>
+
+                          </div>
+                        </Link>
                       );
                     })}
                 </div>
@@ -137,17 +136,15 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt="" />
-                          <h3>{blogPost.title}</h3>
-                        </div>
+                        <Link href={`/product/${blogPost.title}`}>
+                          <div
+                            className={styles.card}
+                            key={i}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt="" />
+                            <h3>{blogPost.title}</h3>
+                          </div>
+                        </Link>
                       );
                     })}
                 </div>
@@ -159,17 +156,16 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
-                          <h3>{blogPost.title}</h3>
-                        </div>
+                        <Link href={`/product/${blogPost.title}`}>
+
+                          <div
+                            className={styles.card}
+                            key={i}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                            <h3>{blogPost.title}</h3>
+                          </div>
+                        </Link>
                       );
                     })}
 
@@ -181,17 +177,15 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
-                          <h3>{blogPost.title}</h3>
-                        </div>
+                        <Link href={`/product/${blogPost.title}`}>
+                          <div
+                            className={styles.card}
+                            key={i}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                            <h3>{blogPost.title}</h3>
+                          </div>
+                        </Link>
                       );
                     })}
 
@@ -204,18 +198,20 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <div
-                          className={styles.card}
-                          key={i}
-                          onClick={() => {
-                            onOpenModal()
-                            setOpenData(blogPost)
-                          }}
-                        >
-                          <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
-                          <h3>{blogPost.title}</h3>
+                        <Link href={`/product/${blogPost.title}`}>
 
-                        </div>
+                          <div
+                            className={styles.card}
+                            key={i}
+                            // onClick={() => {
+                            //   onOpenModal()
+                            //   setOpenData(blogPost)
+                            // }}
+                          >
+                            <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
+                            <h3>{blogPost.title}</h3>
+                          </div>
+                        </Link>
                       );
                     })}
 
@@ -244,7 +240,7 @@ function Rent() {
                     height: "6%",
                   }}
                 >
-                  <h1 style={{ fontSize: "22px",textTransform: "uppercase"}}>{openData?.title}</h1>
+                  <h1 style={{ fontSize: "22px", textTransform: "uppercase" }}>{openData?.title}</h1>
                 </div>
                 <div
                   style={{

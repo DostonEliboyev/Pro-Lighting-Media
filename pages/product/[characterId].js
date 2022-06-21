@@ -10,19 +10,19 @@ import { product1, product2, product3, product4, product5, product6 } from '../.
 export default function Character({ character }) {
   let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
   const { locale, locales, asPath } = useRouter();
-  console.log(character)
+  let random = Math.floor(Math.random() * 96)
   return (
     <div className={styles.container}>
 
 
       {character
         .filter((p) => p.locale === locale)
-        .map((blogPost, i) => {
+        .map((blogPost, i, ref) => {
           return (
             <>
-              <Head key={i}>
+              <Head key={i + 1}>
                 <title>{blogPost.title}</title>
-                <meta name="description"  content={`width=device-width, initial-${blogPost.title}`} />
+                <meta name="description" content={`width=device-width, initial-${blogPost.title}`} />
                 <meta property="og:title" content={`Learn more about ${blogPost.description}`} />
                 <meta property="og:description" content={`${blogPost.description}`} />
                 <meta property="og:url" content="https://www.plm.uz/" />
@@ -32,10 +32,10 @@ export default function Character({ character }) {
 
               <div
                 className={styles.card}
-                key={i}
+                key={i + 3}
               >
-                <span className={styles.closeIcon}>
-                  <Link href="/rent">
+                <span className={styles.closeIcon} key={i + 1}>
+                  <Link href="/rent" innerRef={ref}>
                     <Image src={xIcon} alt={styles.closeIcon} />
                   </Link>
                 </span>
@@ -55,26 +55,33 @@ export default function Character({ character }) {
           );
         })}
 
-      {/* <div className={styles.offerProduct}>
+      <div className={styles.offerProduct}>       
+        <Link href={`/product/${Fulldata[random]?.title}`}>
+          <div className={styles.offerCard}>
+            <Image src={Fulldata[random]?.image} layout='fill' alt={Fulldata[random+9]?.title} />
+            <h3>{Fulldata[random]?.title}</h3>
+          </div>
+        </Link>
+        <Link href={`/product/${Fulldata[random]?.title}`}>
+          <div className={styles.offerCard}>
+            <Image src={Fulldata[random+3]?.image} layout='fill' alt={Fulldata[random+9]?.title} />
+            <h3>{Fulldata[random+3]?.title}</h3>
+          </div>
+        </Link>
+        <Link href={`/product/${Fulldata[random]?.title}`}>
+          <div className={styles.offerCard}>
+            <Image src={Fulldata[random+6]?.image} layout='fill' alt={Fulldata[random+9]?.title} />
+            <h3>{Fulldata[random+6]?.title}</h3>
+          </div>
+        </Link>
+        <Link href={`/product/${Fulldata[random]?.title}`}>
+          <div className={styles.offerCard}>
+            <Image src={Fulldata[random+9]?.image} layout='fill' alt={Fulldata[random+9]?.title} />
+            <h3>{Fulldata[random+9]?.title}</h3>
+          </div>
+        </Link>
 
-        <div className={styles.offerCard}>
-          <Image src={atamik} layout='fill' alt="Sharpy" />
-          <h3>Sharpy</h3>
-        </div>
-        <div className={styles.offerCard}>
-          <Image src={atamik} layout='fill' alt="Sharpy" />
-          <h3>Sharpy</h3>
-        </div>
-        <div className={styles.offerCard}>
-          <Image src={atamik} layout='fill' alt="Sharpy" />
-          <h3>Sharpy</h3>
-        </div>
-        <div className={styles.offerCard}>
-          <Image src={atamik} layout='fill' alt="Sharpy" />
-          <h3>Sharpy</h3>
-        </div>
-
-      </div> */}
+      </div>
 
 
     </div>
@@ -88,8 +95,6 @@ export async function getStaticProps({ params }) {
   // const results = await fetch(`https://last-airbender-api.herokuapp.com/api/v1/characters?name=${characterId}`).then(res => res.json());
   // const characterId = params.characterId.replace(/\-/g, '+')
   const results = Fulldata.filter(item => item.title.toLowerCase() === characterId.toLowerCase())
-
-  console.log(product1)
   return {
     props: {
       character: results
@@ -109,7 +114,7 @@ export async function getStaticPaths() {
       }
     }
   });
-  console.log('paths', paths)
+
   return {
     paths,
     fallback: false
