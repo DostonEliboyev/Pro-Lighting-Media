@@ -3,7 +3,7 @@ import styles from "./character.module.css"
 import Link from "next/link"
 import Head from "next/head"
 import Image from "next/image";
-import atamik from "../../public/prodPhoto/atamik.jpg"
+
 import xIcon from "../../asset/img/xIcon.svg"
 import { product1, product2, product3, product4, product5, product6 } from '../../public/lang/products.json'
 

@@ -94,10 +94,10 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i} >
                           <div
                             className={styles.card}
-                            key={i}
+                            key={i+1}
                           >
                             <Image src={`${blogPost.image}`} layout='fill' alt={blogPost.title} />
                             <h3>{blogPost.title}</h3>
@@ -115,11 +115,11 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i}>
 
                           <div
                             className={styles.card}
-                            key={i}
+                            key={i+1}
                           >
                             <Image src={`${blogPost.image}`} layout='fill' alt="" />
                             <h3>{blogPost.title}</h3>
@@ -136,7 +136,7 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i}>
                           <div
                             className={styles.card}
                             key={i}
@@ -156,7 +156,7 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i}>
 
                           <div
                             className={styles.card}
@@ -177,7 +177,7 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i}>
                           <div
                             className={styles.card}
                             key={i}
@@ -198,7 +198,7 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}>
+                        <Link href={`/product/${blogPost.title}`}     key={i}>
 
                           <div
                             className={styles.card}
