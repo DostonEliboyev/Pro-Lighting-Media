@@ -39,17 +39,17 @@
     {
       "locale": "en",
       "title": "RENT",
-      "link":"/rent"
+      "link":"/product"
     },
     {
       "locale": "ru",
       "title": "АРЕНДА",
-      "link":"/rent"
+      "link":"/product"
     },
     {
       "locale": "uz",
       "title": "Ijara",
-      "link":"/rent"
+      "link":"/product"
     },
     {
         "locale": "en",

@@ -3,18 +3,16 @@ import styles from "./character.module.css"
 import Link from "next/link"
 import Head from "next/head"
 import Image from "next/image";
-
 import xIcon from "../../asset/img/xIcon.svg"
 import { product1, product2, product3, product4, product5, product6 } from '../../public/lang/products.json'
+let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
 
 export default function Character({ character }) {
-  let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
+  console.log(character);
   const { locale, locales, asPath } = useRouter();
   let random = Math.floor(Math.random() * 96)
   return (
     <div className={styles.container}>
-
-
       {character
         .filter((p) => p.locale === locale)
         .map((blogPost, i, ref) => {
@@ -35,7 +33,7 @@ export default function Character({ character }) {
                 key={i + 3}
               >
                 <span className={styles.closeIcon} key={i + 1}>
-                  <Link href="/rent" innerRef={ref}>
+                  <Link href="/product" innerRef={ref}>
                     <Image src={xIcon} alt={styles.closeIcon} />
                   </Link>
                 </span>
@@ -89,7 +87,7 @@ export default function Character({ character }) {
 }
 
 export async function getStaticProps({ params }) {
-  let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
+
 
   const characterId = params.characterId
   // const results = await fetch(`https://last-airbender-api.herokuapp.com/api/v1/characters?name=${characterId}`).then(res => res.json());
@@ -105,7 +103,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   // const characters = await fetch('https://last-airbender-api.herokuapp.com/api/v1/characters?perPage=500').then(res => res.json());
 
-  let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
+
   const paths = Fulldata.map(character => {
     const characterId = character.title;
     return {

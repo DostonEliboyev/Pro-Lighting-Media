@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import Head from "next/head";
-import HomeBgImage from "./../container/HomeBgImage";
-import ContactUs from "./../components/form/form";
-import OurPartner from "./../components/ourPartner/index";
+import HomeBgImage from "../container/HomeBgImage";
+import ContactUs from "../components/form/form";
+import OurPartner from "../components/ourPartner/index";
 import rent from "../asset/img/bg/team.png";
 import styles from "../styles/Rent.module.css";
 import Image from "next/image";
@@ -198,7 +198,7 @@ function Rent() {
                     .filter((p) => p.locale === locale)
                     .map((blogPost, i) => {
                       return (
-                        <Link href={`/product/${blogPost.title}`}     key={i}>
+                        <Link href={`/product/${blogPost.link}`}     key={i}>
 
                           <div
                             className={styles.card}
