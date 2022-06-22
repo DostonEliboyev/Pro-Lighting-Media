@@ -51,8 +51,8 @@ function Footer() {
                   <p>
                   {blogPost.p1}
                   </p>
-                  {blogPost.p2}
-                 <p> {blogPost.p3}</p>
+                  <p><a  href="tel:+998998171111">{blogPost.p2}</a></p>
+                  <p><a href="tel:+998901687135"> {blogPost.p3}</a></p>
                 </div>
               );
             })}
