@@ -8,8 +8,9 @@ import { product1, product2, product3, product4, product5, product6 } from '../.
 let Fulldata = [...product1, ...product2, ...product3, ...product4, ...product5, ...product6]
 
 export default function Character({ character }) {
-  console.log(character);
+  console.log('character,',character);
   const { locale, locales, asPath } = useRouter();
+
   let random = Math.floor(Math.random() * 96)
   return (
     <div className={styles.container}>
