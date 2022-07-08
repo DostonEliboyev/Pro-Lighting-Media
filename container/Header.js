@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +10,9 @@ function Header() {
   const [openDrop, setOpenDrop] = useState(false);
   const [headerColor, setHeaderColor] = useState("#ffffff00")
   const { locale, locales, asPath } = useRouter();
-
+  console.log("locale", locale);
+  console.log("locales", locales);
+  console.log("asPath", asPath);
   function openNav() {
     document.getElementById("myNav").style.height = "100%";
   }
@@ -18,25 +20,25 @@ function Header() {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
- 
+
   const listenScrollEvent = () => {
-      window.scrollY > 20
-        ? setHeaderColor("#00000073")
-        : setHeaderColor("#ffffff00")
-    }
+    window.scrollY > 20
+      ? setHeaderColor("#00000073")
+      : setHeaderColor("#ffffff00")
+  }
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent)
   })
   const scrollSearch = () => {
     window.scrollTo({
-      top:0,
+      top: 0,
       behavior: "smooth"
-      });
- 
+    });
+
   };
 
   return (
-    <div className={styles.headerBig} style={{backgroundColor: headerColor}}>
+    <div className={styles.headerBig} style={{ backgroundColor: headerColor }}>
       <div className={styles.header}>
         <div className={styles.logo__white} onClick={scrollSearch}>
           <Image src={logo_white} alt="" />
@@ -66,7 +68,7 @@ function Header() {
           </div>
           {locales.map((l, i) => {
             return (
-              <div className={styles.lang} key={i}>
+              <div className={`${styles.lang} ${locale === l ?styles.lang__active:""}`} key={i}>
                 <Link href={asPath} locale={l}>
                   {l}
                 </Link>
@@ -102,7 +104,20 @@ function Header() {
                     </Link>
                   );
                 })}
+
+              <div className={styles.searchLangNav}>
+                {locales.map((l, i) => {
+                  return (
+                    <div className={`${styles.lang} ${locale === l ?styles.lang__active:""}`} key={i}>
+                      <Link href={asPath} locale={l} >
+                        {l}
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
+
           </div>
         </div>
       </div>

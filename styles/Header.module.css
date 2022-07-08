@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 1;
   width: 100%;
-  transition: background-color 0.5s ;
+  transition: background-color 0.5s;
 }
 
 .header {
@@ -15,6 +15,7 @@
   margin: auto;
   padding-right: 12px;
 }
+
 .head__main {
   width: 55%;
   height: 100%;
@@ -28,11 +29,13 @@
   cursor: pointer;
   scroll-behavior: smooth;
 }
+
 .head__main a {
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
 }
+
 .head__main a:hover {
   border-bottom: #fff 1px solid;
 }
@@ -71,6 +74,17 @@
   display: flex;
   justify-content: space-between;
 }
+
+.searchLangNav {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+
+}
+
+
 .search {
   border: 1px solid #fff;
   display: block;
@@ -78,17 +92,22 @@
   height: 40px;
   overflow: hidden;
   transform: rotate(45deg);
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
   position: relative;
   cursor: pointer;
 }
+
 .search svg {
   z-index: 9999;
   color: #fff;
   transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg); /* IE 9 */
-  -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Safari and Chrome */
   position: absolute;
   top: 9px;
   left: 10px;
@@ -102,17 +121,22 @@
   height: 40px;
   overflow: hidden;
   transform: rotate(45deg);
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
   position: relative;
+  
 }
 
 .lang a {
   z-index: 9999;
   color: #fff;
   transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg); /* IE 9 */
-  -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Safari and Chrome */
   position: absolute;
   top: -5px;
   left: -4px;
@@ -120,9 +144,11 @@
   text-transform: uppercase;
 
 }
+
 .searchLangDrop {
   display: none;
 }
+
 .dropbtn {
   /* color: white; */
   font-size: 16px;
@@ -207,17 +233,17 @@
   display: none;
 }
 
-.input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+.input[type="checkbox"]:checked~span:nth-of-type(1) {
   transform-origin: bottom;
   transform: rotatez(45deg) translate(8px, 0px);
 }
 
-.input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+.input[type="checkbox"]:checked~span:nth-of-type(2) {
   transform-origin: top;
   transform: rotatez(-45deg);
 }
 
-.input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+.input[type="checkbox"]:checked~span:nth-of-type(3) {
   transform-origin: bottom;
   width: 50%;
   transform: translate(30px, -11px) rotatez(45deg);
@@ -226,27 +252,35 @@
 /* /////////////////////////////////// */
 
 .overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 0;
   width: 100%;
-  position: fixed; 
-  z-index: 999 !important; 
+  position: fixed;
+  z-index: 999 !important;
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 1); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  background-color: rgb(0, 0, 0);
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 1);
+  /* Black w/opacity */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 
 }
 
 /* Position the content inside the overlay */
 .overlay__content {
   position: relative;
-  top: 10%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 10px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  top: 10%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 10px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
@@ -257,8 +291,10 @@
   padding: 8px;
   text-decoration: none;
   font-size: 25px;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
   background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -267,7 +303,8 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -280,18 +317,36 @@
   color: gold;
 }
 
-
+.lang__active {
+  border: 1px solid #f4902c;
+}
+.lang__active a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+  background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
 
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay a {
+    font-size: 20px
+  }
+
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
   }
 }
+
 /* ////////////////////////////////////// */
 
 
@@ -300,7 +355,8 @@
   .headerBig {
     padding: 0 135px;
   }
-  .head__main a{
+
+  .head__main a {
     font-size: 14px;
   }
 }
@@ -309,20 +365,40 @@
   .headerBig {
     padding: 0 50px;
   }
-  .head__main a{
+
+  .head__main a {
     font-size: 10px;
   }
+
   .head__main {
     display: none;
   }
+
   .searchLang {
     display: none;
   }
+
   .dropdown {
     display: block;
   }
+
   .searchLangDrop {
     display: block;
+  }
+  .lang__active {
+    border: 1px solid #f4902c;
+  }
+  .lang__active a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
   }
 }
 
@@ -330,6 +406,7 @@
   .headerBig {
     padding: 0 30px;
   }
+
   .head__main {
     display: none;
   }
@@ -337,18 +414,22 @@
   .searchLang {
     display: none;
   }
+
   .dropdown {
     display: block;
   }
+
   .searchLangDrop {
     display: block;
   }
+  
 }
 
 @media only screen and (max-width: 375px) {
   .headerBig {
     padding: 0 20px;
   }
+
   .head__main {
     display: none;
   }
@@ -356,32 +437,39 @@
   .searchLang {
     display: none;
   }
+
   .dropdown {
     display: block;
   }
+
   .logo__white {
     width: 45px;
   }
+
   .header {
     height: 50px;
   }
+
   .searchLangDrop {
     display: block;
   }
+ 
 
   .label span {
     border-radius: 10px;
     height: 1px;
     margin: 2.5px 0;
   }
+
   .label {
     width: 20px;
-    
+
   }
- 
+
   .dropdown_content {
     min-width: 90px;
   }
+
   .dropdown_content a {
     padding: 3px 8px;
     text-transform: uppercase;
