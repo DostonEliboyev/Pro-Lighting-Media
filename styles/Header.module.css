@@ -37,11 +37,23 @@
 }
 
 .head__main a:hover {
-  border-bottom: #fff 1px solid;
+  /* border-bottom: #fff 1px solid; */
+  transition: 0.3s;
+  background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
 }
 
 .head__main__a {
-  border-bottom: #fff 1px solid;
+  /* border-bottom:  1px solid; */
+  transition: 0.3s;
+  background: linear-gradient(105.56deg, #f4902c 18.43%, #fee105 89.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
 }
 
 /* .head__main a:after{

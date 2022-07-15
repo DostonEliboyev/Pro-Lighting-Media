@@ -301,6 +301,7 @@
 @media only screen and (max-width: 768px) {
   .allAbout {
     padding: 0 30px;
+    height: 56vh;
   }
 
   .allAboutCenter span {
@@ -376,17 +377,22 @@
 @media only screen and (max-width: 375px) {
   .allAbout {
     padding: 0 20px;
-    height: 55vh
+    height: 39vh
   }
 
   .allAboutCenter span {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .allAboutCenter p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 20px 0;
+  }
+  .allAboutCenter button{
+    font-size: 12px;
+    padding: 12px 28px;
+
   }
   .outTeam {
     padding: 0 20px;

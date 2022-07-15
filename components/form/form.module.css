@@ -130,4 +130,26 @@
     margin: auto;
 
   }
+  .ContactUs_form h1{
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .ContactUs {
+    padding: 0 20px;
+  }
+
+  .ContactUs_img {
+    display: none;
+  }
+  .ContactUs_img1{
+    display: block;
+    padding: 0;
+    margin: auto;
+
+  }
+  .ContactUs_form h1{
+    font-size: 28px;
+  }
 }

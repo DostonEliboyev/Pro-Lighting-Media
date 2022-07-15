@@ -28,6 +28,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #1f18185c;
   
   }
   
@@ -80,30 +81,18 @@
 
 
 
-@media only screen and (max-width: 1440px) {
-  .contianerGrid{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 100px;
-  }
-}
 
-@media only screen and (max-width: 1200px) {
-  .contianerGrid{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 100px;
-  }
-}
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (min-width: 768px) {
   .contianerGrid{
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
   }
   .allAbout{
-    height: 30vh;
+    height: 55vh;
     align-items: center;
     margin-bottom: 0;
   }
@@ -111,7 +100,7 @@
     margin-bottom: 0;
   }
   .allAboutCenter span{
-    font-size: 16px;
+    font-size: 24px;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -121,6 +110,45 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .contianerGrid{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .allAbout{
+    height: 85vh;
+  }
+  .allAboutCenter span {
+    font-size: 44px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .contianerGrid{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .allAbout{
+    height: 100vh;
+    align-items: center;
+  }
+  .allAboutCenter{
+    margin-bottom: 0;
+  }
+  .allAboutCenter span {
+    font-size: 54px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .allAboutCenter p{
+    display: none;
+  }
+}
 @media only screen and (max-width: 375px) {
   .contianerGrid{
     width: 80%;
@@ -128,7 +156,30 @@
     margin-bottom: 100px;
   }
   .allAbout{
-    height: 25vh;
+    height: 35vh;
+    align-items: center;
+  }
+  .allAboutCenter{
+    margin-bottom: 0;
+  }
+  .allAboutCenter span {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .allAboutCenter p{
+    display: none;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .contianerGrid{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .allAbout{
+    height: 28vh;
     align-items: center;
   }
   .allAboutCenter{
