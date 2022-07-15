@@ -23,7 +23,7 @@ function RectangleCard() {
                   </h1>
                 </div>
 
-                {/* <OrderNow name={blogPost.button2} href={"/rent"} /> */}
+                <OrderNow name={blogPost.button2} href={"/team"} />
               </>
             );
           })}

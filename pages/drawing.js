@@ -7,7 +7,7 @@ import IGrid from "../components/GridImage/GirdImage2";
 import ContactUs from "../components/form/form";
 import OurPartner from "../components/ourPartner/index";
 import ProCircleGold from "../components/proCircleGold/index";
-
+import Link from "next/link"
 import onehero from "../public/lang/onehero.json";
 function Drawing() {
   const { locale, locales, asPath } = useRouter()
@@ -36,8 +36,9 @@ function Drawing() {
               <p>Home/Our Team</p>
               <span>ALL ABOUT LIGHTS - ITS ALL</span>
             </div>
-
+            <Link href={"/contact"}>
             <button>Now Submit</button>
+            </Link>
           </div>
         </section>
 

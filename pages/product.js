@@ -68,8 +68,9 @@ function Rent() {
               <p>Home/Our Team</p>
               <span>ALL ABOUT LIGHTS - ITS ALL </span>
             </div>
-
+            <Link href={"/contact"}>
             <button>Now Submit</button>
+            </Link>
           </div>
         </section>
 
