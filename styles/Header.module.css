@@ -492,3 +492,58 @@
     display: block;
   }
 }
+@media only screen and (max-width: 428px) {
+  .headerBig {
+    padding: 0 20px;
+  }
+
+  .head__main {
+    display: none;
+  }
+
+  .searchLang {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .logo__white {
+    width: 45px;
+  }
+
+  .header {
+    height: 50px;
+  }
+
+  .searchLangDrop {
+    display: block;
+  }
+ 
+
+  .label span {
+    border-radius: 10px;
+    height: 1px;
+    margin: 2.5px 0;
+  }
+
+  .label {
+    width: 20px;
+
+  }
+
+  .dropdown_content {
+    min-width: 90px;
+  }
+
+  .dropdown_content a {
+    padding: 3px 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+
+  .show {
+    display: block;
+  }
+}
