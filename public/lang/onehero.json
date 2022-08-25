@@ -139,5 +139,27 @@
             "message": "Xabar",
             "button": "Yuborish"
         }
+    ],
+    "aboutTitle":[
+        {
+            "locale": "en",
+            "p":"For 30 years, ProLightingMedia has been providing high-tech lighting equipment for various events, technical support, and high quality.",
+            "p2": "The company is a leader in its field of activity. It should be noted that the technical staff of the company includes equipment of the latest models from world brands."
+
+        },
+        {
+            "locale": "ru",
+            "p":"Вот уже 30 лет компания ProLightingMedia занимается обеспечением высокотехнологического светового оборудования в различного рода мероприятий, проведением технической поддержки, в высоком качестве. ",
+            "p2":"Компания является лидером в своей сфере деятельности. Стоит отметить что, в техническом составе компании имеются оборудования самых последних моделей из мировых брендов."
+           
+        },
+        {
+            "locale": "uz",
+            "p":"30 yil davomida ProLightingMedia turli tadbirlar, texnik yordam va yuqori sifat uchun yuqori texnologiyali yoritish uskunalarini taqdim etadi.",
+            "p2": "Kompaniya o'z faoliyat sohasida etakchi hisoblanadi. Ta'kidlash joizki, kompaniya texnik xodimlari jahon brendlarining eng so'nggi rusumdagi jihozlarini o'z ichiga oladi."
+
+        }
     ]
+
+
 }

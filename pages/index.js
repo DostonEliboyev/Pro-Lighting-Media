@@ -83,22 +83,22 @@ export default function Home() {
               )
             })}
 
+          {onehero.aboutTitle
+            .filter((p) => p.locale === locale)
+            .map((blogPost, i) => {
+              return (
+                <div className={styles.outTeamRigth}>
 
-          <div className={styles.outTeamRigth}>
+                  <p>
+                    {blogPost.p}
+                  </p>
+                  <p>
+                    {blogPost.p2}
+                  </p>
+                </div>
+              )
+            })}
 
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-              ornare posuere neque, ac nunc sollicitudin. Diam bibendum auctor
-              odio scelerisque ridiculus. Tincidunt amet aliquet elementum enim
-              turpis sed purus venenatis sed. Aliquam vulputate feugiat lobortis
-              cursus sit proin adipiscing massa,
-            </p>
-            <p>
-              Nibh nunc, orci, vel orci eu pharetra, dictumst amet. Massa a ac
-              semper imperdiet faucibus magna faucibus. Aliquam accumsan, urna,
-              nisl venenatis, fames. Eget hendrerit interdum rutrum nulla id.
-            </p>
-          </div>
         </section>
         {/* <section className={styles.someWork}>
           {onehero.about2
