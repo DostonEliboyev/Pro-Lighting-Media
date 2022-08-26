@@ -87,7 +87,7 @@ export default function Home() {
             .filter((p) => p.locale === locale)
             .map((blogPost, i) => {
               return (
-                <div className={styles.outTeamRigth}>
+                <div className={styles.outTeamRigth} key={i}>
 
                   <p>
                     {blogPost.p}
