@@ -4,18 +4,14 @@ This project is a responsive landing page built using Next.js. It is designed to
 
 ## Demo
 
-Check out the live demo here: [Responsive Landing Page Demo](https://pro-lighting-media2.vercel.app/)
+Check out the live demo here: [Demo](https://pro-lighting-media2.vercel.app/)
 
 ## Features
 
 - Fully responsive design that adapts seamlessly to different screen sizes (phones, tablets, desktops).
 - Optimized for performance and usability.
 - Built with modern web technologies.
-- SEO optimized for better search engine rankings.
-
-- Fully responsive design that adapts seamlessly to different screen sizes (phones, tablets, desktops).
-- Optimized for performance and usability.
-- Built with modern web technologies.
+- SEO optimized for better search engine rankings. 
 
 ## Technologies Used
 
