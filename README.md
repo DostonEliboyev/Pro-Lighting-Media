@@ -1,4 +1,4 @@
-# Responsive Landing Page
+# Pro Lighting Media Landing Page
 
 This project is a responsive landing page built using Next.js. It is designed to provide an optimal viewing experience across devices, including phones, tablets, and desktops.
 
